@@ -16788,6 +16788,1563 @@ window.DRILLS = [
     "BP-007; POS-009"
    ]
   ]
+ },
+ {
+  "id": "MAT-001",
+  "name": "Make It Big",
+  "star": false,
+  "section": "20-Minute Matches",
+  "category": "20-Minute Matches",
+  "phase": "Conditioned game",
+  "group": "Game",
+  "duration": "20 minutes",
+  "durMin": 20,
+  "durMax": 20,
+  "intensity": "Moderate to high",
+  "skill": "Creating space",
+  "playersMin": 10,
+  "playersMax": 14,
+  "gk": "Recommended",
+  "img": "img-2/MAT-001.jpg",
+  "imgW": 1200,
+  "imgH": 800,
+  "before": [
+   "BP-007",
+   "BP-008"
+  ],
+  "after": [
+   "MAT-002",
+   "MAT-010"
+  ],
+  "coach": [
+   [
+    "Phase",
+    "Conditioned game"
+   ],
+   [
+    "Duration",
+    "20 minutes"
+   ],
+   [
+    "Primary skill",
+    "Creating space"
+   ],
+   [
+    "Secondary skills",
+    "Width, switching play, support play, scanning"
+   ],
+   [
+    "Players",
+    "14; 7v7 including goalkeepers (works with 5v5 or 6v6 on a smaller pitch)"
+   ],
+   [
+    "Intensity",
+    "Moderate to high"
+   ],
+   [
+    "Area",
+    "A 7v7 pitch, about 55 × 37 metres"
+   ],
+   [
+    "Equipment",
+    "Two goals; cones or flat markers; bibs in two colours; a supply of balls"
+   ],
+   [
+    "Setup",
+    "Mark a 3-metre channel down each touchline with cones or flat markers. Play a normal 7v7."
+   ],
+   [
+    "Instructions",
+    "Play a normal 7v7, but a goal is worth 2 if the team used a wide channel during the attack. Don’t force anyone to stand in a channel – any player can enter it. After about 7 minutes, progress to 3 points if both wings are used before scoring. Keep the coaching cue simple: “BIG when we’ve got it.”"
+   ],
+   [
+    "Coaching points",
+    "BIG when we’ve got it; who can get wide early? Look for the free player in the channel; once the ball goes wide, others move to support and get into the box; get SMALL again when we lose it."
+   ],
+   [
+    "Work-to-rest guidance",
+    "Two halves of 9–10 minutes with a 1–2 minute drinks break."
+   ],
+   [
+    "Progression",
+    "After 7 minutes: 3 points if both wings are used before scoring. Later, remove the points and see whether the width stays."
+   ],
+   [
+    "Regression",
+    "Make the channels wider (4–5 metres) or do not allow tackling inside the channels."
+   ],
+   [
+    "Inclusive adaptation",
+    "Let less confident players start near a channel where they have more time; praise good width even when no goal follows."
+   ],
+   [
+    "Safety",
+    "Check the pitch and goals before starting; remove spare balls and cones from the playing area; no slide tackles; stop play straight away if a player goes down; drinks break at half-time."
+   ]
+  ],
+  "meta": [
+   [
+    "Library category",
+    "20-Minute Matches"
+   ],
+   [
+    "Session phase",
+    "Conditioned game"
+   ],
+   [
+    "Duration",
+    "20 minutes"
+   ],
+   [
+    "Primary outcome",
+    "Creating space"
+   ],
+   [
+    "Secondary outcomes",
+    "Width; Switching play; Support play; Scanning"
+   ],
+   [
+    "Game moment",
+    "Attacking organisation"
+   ],
+   [
+    "Player decision",
+    "Have we made the pitch big – and where is the free wide player?"
+   ],
+   [
+    "Player range",
+    "10–14; 5v5 to 7v7"
+   ],
+   [
+    "Age suitability",
+    "U9–U12; designed for U11"
+   ],
+   [
+    "Opposition level",
+    "Fully opposed"
+   ],
+   [
+    "Goalkeeper involvement",
+    "Recommended; a goalkeeper in each goal"
+   ],
+   [
+    "Intensity",
+    "Moderate to high"
+   ],
+   [
+    "Directionality",
+    "Directional, two goals"
+   ],
+   [
+    "Recommended preceding drill ID(s)",
+    "BP-007; BP-008"
+   ],
+   [
+    "Recommended following drill ID(s)",
+    "MAT-002; MAT-010"
+   ]
+  ]
+ },
+ {
+  "id": "MAT-002",
+  "name": "Switch It",
+  "star": false,
+  "section": "20-Minute Matches",
+  "category": "20-Minute Matches",
+  "phase": "Conditioned game",
+  "group": "Game",
+  "duration": "20 minutes",
+  "durMin": 20,
+  "durMax": 20,
+  "intensity": "Moderate to high",
+  "skill": "Switching play",
+  "playersMin": 10,
+  "playersMax": 14,
+  "gk": "Recommended",
+  "img": "img-2/MAT-002.jpg",
+  "imgW": 1200,
+  "imgH": 800,
+  "before": [
+   "BP-010",
+   "MAT-001"
+  ],
+  "after": [
+   "MAT-009",
+   "MAT-010"
+  ],
+  "coach": [
+   [
+    "Phase",
+    "Conditioned game"
+   ],
+   [
+    "Duration",
+    "20 minutes"
+   ],
+   [
+    "Primary skill",
+    "Switching play"
+   ],
+   [
+    "Secondary skills",
+    "Width, scanning, passing, decision-making"
+   ],
+   [
+    "Players",
+    "14; 7v7 including goalkeepers (works with 5v5 or 6v6 on a smaller pitch)"
+   ],
+   [
+    "Intensity",
+    "Moderate to high"
+   ],
+   [
+    "Area",
+    "A 7v7 pitch made slightly wider than normal to begin with, about 55 × 42 metres"
+   ],
+   [
+    "Equipment",
+    "Two goals; cones or flat markers; bibs in two colours; a supply of balls"
+   ],
+   [
+    "Setup",
+    "Use the same 3-metre wide channels as Make It Big. To begin with, make the pitch slightly wider than normal so the switch is obviously worth it."
+   ],
+   [
+    "Instructions",
+    "Normal goal = 1. Goal after using one wing = 2. Goal after switching wide → across → opposite wide = 3. It teaches that when six players are crowded on one side, the answer isn’t necessarily to dribble through them – get the ball doing the work. Ask: “Where are THEY?” “So where is OUR space?”"
+   ],
+   [
+    "Coaching points",
+    "Look across the pitch before you receive; if they are all on this side, the space is on the other; switch quickly with two or three passes; the far-side player stays wide and patient."
+   ],
+   [
+    "Work-to-rest guidance",
+    "Two halves of 9–10 minutes with a 1–2 minute drinks break."
+   ],
+   [
+    "Progression",
+    "Bring the pitch back to normal width; the switch has to be made in no more than three passes; the 3-point switch counts double in the last five minutes."
+   ],
+   [
+    "Regression",
+    "Give 2 points simply for switching the ball from one channel to the other, whether or not a goal follows."
+   ],
+   [
+    "Inclusive adaptation",
+    "Allow the central player an unchallenged touch when switching play; widen the pitch further for more time on the ball."
+   ],
+   [
+    "Safety",
+    "Check the pitch and goals before starting; remove spare balls and cones from the playing area; no slide tackles; stop play straight away if a player goes down; drinks break at half-time."
+   ]
+  ],
+  "meta": [
+   [
+    "Library category",
+    "20-Minute Matches"
+   ],
+   [
+    "Session phase",
+    "Conditioned game"
+   ],
+   [
+    "Duration",
+    "20 minutes"
+   ],
+   [
+    "Primary outcome",
+    "Switching play"
+   ],
+   [
+    "Secondary outcomes",
+    "Width; Scanning; Passing; Decision-making"
+   ],
+   [
+    "Game moment",
+    "Attacking organisation"
+   ],
+   [
+    "Player decision",
+    "Where are they – so where is our space?"
+   ],
+   [
+    "Player range",
+    "10–14; 5v5 to 7v7"
+   ],
+   [
+    "Age suitability",
+    "U9–U12; designed for U11"
+   ],
+   [
+    "Opposition level",
+    "Fully opposed"
+   ],
+   [
+    "Goalkeeper involvement",
+    "Recommended; a goalkeeper in each goal"
+   ],
+   [
+    "Intensity",
+    "Moderate to high"
+   ],
+   [
+    "Directionality",
+    "Directional, two goals"
+   ],
+   [
+    "Recommended preceding drill ID(s)",
+    "BP-010; MAT-001"
+   ],
+   [
+    "Recommended following drill ID(s)",
+    "MAT-009; MAT-010"
+   ]
+  ]
+ },
+ {
+  "id": "MAT-003",
+  "name": "Three-Zone Match",
+  "star": false,
+  "section": "20-Minute Matches",
+  "category": "20-Minute Matches",
+  "phase": "Conditioned game",
+  "group": "Game",
+  "duration": "20 minutes",
+  "durMin": 20,
+  "durMax": 20,
+  "intensity": "Moderate to high",
+  "skill": "Support play",
+  "playersMin": 10,
+  "playersMax": 14,
+  "gk": "Recommended",
+  "img": "img-2/MAT-003.jpg",
+  "imgW": 1200,
+  "imgH": 800,
+  "before": [
+   "BP-009",
+   "POS-001"
+  ],
+  "after": [
+   "MAT-004",
+   "MAT-010"
+  ],
+  "coach": [
+   [
+    "Phase",
+    "Conditioned game"
+   ],
+   [
+    "Duration",
+    "20 minutes"
+   ],
+   [
+    "Primary skill",
+    "Support play"
+   ],
+   [
+    "Secondary skills",
+    "Team shape, positioning, passing, scanning"
+   ],
+   [
+    "Players",
+    "14; 7v7 including goalkeepers (works with 5v5 or 6v6 on a smaller pitch)"
+   ],
+   [
+    "Intensity",
+    "Moderate to high"
+   ],
+   [
+    "Area",
+    "A 7v7 pitch, about 55 × 37 metres"
+   ],
+   [
+    "Equipment",
+    "Two goals; flat markers or cones for the two zone lines; bibs in two colours; a supply of balls"
+   ],
+   [
+    "Setup",
+    "Divide the pitch across its width into three zones: DEFENCE | MIDFIELD | ATTACK. Each team sets up with 2 defenders, 2 midfielders, 2 attackers and a goalkeeper."
+   ],
+   [
+    "Instructions",
+    "Players can pass through the zones but can’t leave their own. After 5 minutes, allow one player to travel into the next zone after passing. After another 5 minutes, remove the restriction completely and play a normal game. Particularly useful for newer players, because they start seeing the team’s shape rather than everyone following the ball."
+   ],
+   [
+    "Coaching points",
+    "Can you see your team’s shape? Give the player on the ball help behind, alongside and ahead; move within your zone to find a passing lane; when the zones go, try to keep the same shape."
+   ],
+   [
+    "Work-to-rest guidance",
+    "Two halves of 9–10 minutes with a 1–2 minute drinks break."
+   ],
+   [
+    "Progression",
+    "5 minutes: stay in your zone. Next 5 minutes: one player may follow their pass into the next zone. Final 10 minutes: no restrictions."
+   ],
+   [
+    "Regression",
+    "Keep the zone restriction for longer, or let the defenders’ zone be free of tackling so the team can start each attack calmly."
+   ],
+   [
+    "Inclusive adaptation",
+    "Let players choose their starting zone, rotate zones at each change, and pair a newer player with an experienced one in the same zone."
+   ],
+   [
+    "Safety",
+    "Check the pitch and goals before starting; remove spare balls and cones from the playing area; no slide tackles; stop play straight away if a player goes down; drinks break at half-time."
+   ]
+  ],
+  "meta": [
+   [
+    "Library category",
+    "20-Minute Matches"
+   ],
+   [
+    "Session phase",
+    "Conditioned game"
+   ],
+   [
+    "Duration",
+    "20 minutes"
+   ],
+   [
+    "Primary outcome",
+    "Support play"
+   ],
+   [
+    "Secondary outcomes",
+    "Team shape; Positioning; Passing; Scanning"
+   ],
+   [
+    "Game moment",
+    "Attacking organisation and defending organisation"
+   ],
+   [
+    "Player decision",
+    "Where should I be to help the team’s shape?"
+   ],
+   [
+    "Player range",
+    "10–14; 5v5 to 7v7"
+   ],
+   [
+    "Age suitability",
+    "U9–U12; designed for U11"
+   ],
+   [
+    "Opposition level",
+    "Fully opposed"
+   ],
+   [
+    "Goalkeeper involvement",
+    "Recommended; a goalkeeper in each goal"
+   ],
+   [
+    "Intensity",
+    "Moderate to high"
+   ],
+   [
+    "Directionality",
+    "Directional, two goals"
+   ],
+   [
+    "Recommended preceding drill ID(s)",
+    "BP-009; POS-001"
+   ],
+   [
+    "Recommended following drill ID(s)",
+    "MAT-004; MAT-010"
+   ]
+  ]
+ },
+ {
+  "id": "MAT-004",
+  "name": "Midfield Masters",
+  "star": true,
+  "section": "20-Minute Matches",
+  "category": "20-Minute Matches",
+  "phase": "Conditioned game",
+  "group": "Game",
+  "duration": "20 minutes",
+  "durMin": 20,
+  "durMax": 20,
+  "intensity": "Moderate to high",
+  "skill": "Playing forward",
+  "playersMin": 10,
+  "playersMax": 14,
+  "gk": "Recommended",
+  "img": "img-2/MAT-004.jpg",
+  "imgW": 1200,
+  "imgH": 800,
+  "before": [
+   "LRP-008",
+   "LRP-003"
+  ],
+  "after": [
+   "MAT-008",
+   "MAT-010"
+  ],
+  "coach": [
+   [
+    "Phase",
+    "Conditioned game"
+   ],
+   [
+    "Duration",
+    "20 minutes"
+   ],
+   [
+    "Primary skill",
+    "Playing forward"
+   ],
+   [
+    "Secondary skills",
+    "Scanning, receiving on the half-turn, support play, passing"
+   ],
+   [
+    "Players",
+    "14; 7v7 including goalkeepers (works with 5v5 or 6v6 on a smaller pitch)"
+   ],
+   [
+    "Intensity",
+    "Moderate to high"
+   ],
+   [
+    "Area",
+    "A 7v7 pitch, about 55 × 37 metres"
+   ],
+   [
+    "Equipment",
+    "Two goals; flat markers or cones for the central zone; bibs in two colours; a supply of balls"
+   ],
+   [
+    "Setup",
+    "Mark a central zone about 10–12 metres deep across the middle of the pitch. Play a normal 7v7."
+   ],
+   [
+    "Instructions",
+    "Play normal football, but award a bonus point when defender or goalkeeper → midfielder → forward happens under control. Give another bonus if the midfielder receives on the half-turn and plays forwards. Don’t stop the match to judge every shoulder check – the aim is to encourage midfielders to find space between the two teams and connect play. Cue: “SCAN – OPEN – PLAY.”"
+   ],
+   [
+    "Coaching points",
+    "Midfielders: find the space between the two teams; scan before the ball arrives; open your body so you can play forward; forwards: show for the next pass; defenders: look for the midfielder before going long."
+   ],
+   [
+    "Work-to-rest guidance",
+    "Two halves of 9–10 minutes with a 1–2 minute drinks break."
+   ],
+   [
+    "Progression",
+    "The bonus only counts if the midfielder plays forward within two touches; add a second bonus for a third-player run beyond the forward."
+   ],
+   [
+    "Regression",
+    "Give the bonus for any controlled pass into a midfielder inside the central zone, or limit the zone to one defender."
+   ],
+   [
+    "Inclusive adaptation",
+    "Rotate everyone through midfield, and let newer players receive unchallenged for their first touch in the central zone."
+   ],
+   [
+    "Safety",
+    "Check the pitch and goals before starting; remove spare balls and cones from the playing area; no slide tackles; stop play straight away if a player goes down; drinks break at half-time."
+   ]
+  ],
+  "meta": [
+   [
+    "Library category",
+    "20-Minute Matches"
+   ],
+   [
+    "Session phase",
+    "Conditioned game"
+   ],
+   [
+    "Duration",
+    "20 minutes"
+   ],
+   [
+    "Primary outcome",
+    "Playing forward"
+   ],
+   [
+    "Secondary outcomes",
+    "Scanning; Receiving on the half-turn; Support play; Passing"
+   ],
+   [
+    "Game moment",
+    "In possession – playing through midfield"
+   ],
+   [
+    "Player decision",
+    "Where is the space between the two teams, and can I play forward?"
+   ],
+   [
+    "Player range",
+    "10–14; 5v5 to 7v7"
+   ],
+   [
+    "Age suitability",
+    "U9–U12; designed for U11"
+   ],
+   [
+    "Opposition level",
+    "Fully opposed"
+   ],
+   [
+    "Goalkeeper involvement",
+    "Recommended; a goalkeeper in each goal"
+   ],
+   [
+    "Intensity",
+    "Moderate to high"
+   ],
+   [
+    "Directionality",
+    "Directional, two goals"
+   ],
+   [
+    "Recommended preceding drill ID(s)",
+    "LRP-008; LRP-003"
+   ],
+   [
+    "Recommended following drill ID(s)",
+    "MAT-008; MAT-010"
+   ]
+  ]
+ },
+ {
+  "id": "MAT-005",
+  "name": "Pass & Move Football",
+  "star": false,
+  "section": "20-Minute Matches",
+  "category": "20-Minute Matches",
+  "phase": "Conditioned game",
+  "group": "Game",
+  "duration": "20 minutes",
+  "durMin": 20,
+  "durMax": 20,
+  "intensity": "Moderate to high",
+  "skill": "Creating space",
+  "playersMin": 10,
+  "playersMax": 14,
+  "gk": "Recommended",
+  "img": "img-2/MAT-005.jpg",
+  "imgW": 1200,
+  "imgH": 800,
+  "before": [
+   "BP-005",
+   "POS-002"
+  ],
+  "after": [
+   "MAT-004",
+   "MAT-010"
+  ],
+  "coach": [
+   [
+    "Phase",
+    "Conditioned game"
+   ],
+   [
+    "Duration",
+    "20 minutes"
+   ],
+   [
+    "Primary skill",
+    "Creating space"
+   ],
+   [
+    "Secondary skills",
+    "Movement off the ball, support play, passing, scanning"
+   ],
+   [
+    "Players",
+    "14; 7v7 including goalkeepers (works with 5v5 or 6v6 on a smaller pitch)"
+   ],
+   [
+    "Intensity",
+    "Moderate to high"
+   ],
+   [
+    "Area",
+    "A 7v7 pitch, about 55 × 37 metres"
+   ],
+   [
+    "Equipment",
+    "Two goals; bibs in two colours; a supply of balls"
+   ],
+   [
+    "Setup",
+    "Play a normal 7v7 on a normal pitch. Explain the one rule before you start."
+   ],
+   [
+    "Instructions",
+    "Normal 7v7 with one unusual rule: you cannot receive the ball back immediately from the player you just passed to. So if player A passes to player B, B can’t simply return it to A. A therefore needs to move somewhere useful while B finds another option. Run that for 8–10 minutes and then remove the rule. Watch whether the movement continues."
+   ],
+   [
+    "Coaching points",
+    "Pass, then move somewhere useful; the receiver looks for a different teammate; players away from the ball move to offer a new option; no standing and watching your pass."
+   ],
+   [
+    "Work-to-rest guidance",
+    "Two halves of 9–10 minutes with a 1–2 minute drinks break."
+   ],
+   [
+    "Progression",
+    "After 8–10 minutes remove the rule and watch whether the movement continues; give a bonus point for a goal that includes a third-player move."
+   ],
+   [
+    "Regression",
+    "Allow the return pass once the passer has moved at least five metres to a new position."
+   ],
+   [
+    "Inclusive adaptation",
+    "Use a simple call such as “Move!” from teammates as a reminder, and praise any movement after a pass, whether or not the ball comes back."
+   ],
+   [
+    "Safety",
+    "Check the pitch and goals before starting; remove spare balls and cones from the playing area; no slide tackles; stop play straight away if a player goes down; drinks break at half-time."
+   ]
+  ],
+  "meta": [
+   [
+    "Library category",
+    "20-Minute Matches"
+   ],
+   [
+    "Session phase",
+    "Conditioned game"
+   ],
+   [
+    "Duration",
+    "20 minutes"
+   ],
+   [
+    "Primary outcome",
+    "Creating space"
+   ],
+   [
+    "Secondary outcomes",
+    "Movement off the ball; Support play; Passing; Scanning"
+   ],
+   [
+    "Game moment",
+    "Attacking organisation"
+   ],
+   [
+    "Player decision",
+    "I’ve passed – where can I move to help next?"
+   ],
+   [
+    "Player range",
+    "10–14; 5v5 to 7v7"
+   ],
+   [
+    "Age suitability",
+    "U9–U12; designed for U11"
+   ],
+   [
+    "Opposition level",
+    "Fully opposed"
+   ],
+   [
+    "Goalkeeper involvement",
+    "Recommended; a goalkeeper in each goal"
+   ],
+   [
+    "Intensity",
+    "Moderate to high"
+   ],
+   [
+    "Directionality",
+    "Directional, two goals"
+   ],
+   [
+    "Recommended preceding drill ID(s)",
+    "BP-005; POS-002"
+   ],
+   [
+    "Recommended following drill ID(s)",
+    "MAT-004; MAT-010"
+   ]
+  ]
+ },
+ {
+  "id": "MAT-006",
+  "name": "Five-Second Fight",
+  "star": false,
+  "section": "20-Minute Matches",
+  "category": "20-Minute Matches",
+  "phase": "Conditioned game",
+  "group": "Game",
+  "duration": "20 minutes",
+  "durMin": 20,
+  "durMax": 20,
+  "intensity": "High",
+  "skill": "Transition to defend",
+  "playersMin": 10,
+  "playersMax": 14,
+  "gk": "Recommended",
+  "img": "img-2/MAT-006.jpg",
+  "imgW": 1200,
+  "imgH": 800,
+  "before": [
+   "TR-001",
+   "POS-008"
+  ],
+  "after": [
+   "MAT-007",
+   "MAT-010"
+  ],
+  "coach": [
+   [
+    "Phase",
+    "Conditioned game"
+   ],
+   [
+    "Duration",
+    "20 minutes"
+   ],
+   [
+    "Primary skill",
+    "Transition to defend"
+   ],
+   [
+    "Secondary skills",
+    "Pressing, reaction speed, recovery, compactness"
+   ],
+   [
+    "Players",
+    "14; 7v7 including goalkeepers (works with 5v5 or 6v6 on a smaller pitch)"
+   ],
+   [
+    "Intensity",
+    "High"
+   ],
+   [
+    "Area",
+    "A 7v7 pitch, about 55 × 37 metres"
+   ],
+   [
+    "Equipment",
+    "Two goals; bibs in two colours; a supply of balls"
+   ],
+   [
+    "Setup",
+    "Play a normal 7v7 on a normal pitch."
+   ],
+   [
+    "Instructions",
+    "Play a normal game. Whenever possession changes, quietly count: 5… 4… 3… 2… 1. If the team that lost the ball wins it back within five seconds, they earn a bonus point. If the opposition beat the initial pressure, encourage the team to recover their shape rather than endlessly chasing. It teaches: lose it → react immediately."
+   ],
+   [
+    "Coaching points",
+    "React the moment we lose it; the nearest two or three players press together; everyone else gets SMALL and protects the middle; if they play through the press, drop and recover your shape."
+   ],
+   [
+    "Work-to-rest guidance",
+    "Two halves of 9–10 minutes with a 1–2 minute drinks break."
+   ],
+   [
+    "Progression",
+    "Stop counting aloud and let the players judge the five seconds; give a second bonus for scoring within ten seconds of winning it back."
+   ],
+   [
+    "Regression",
+    "Count more slowly, or give the bonus for a single touch on the ball within five seconds."
+   ],
+   [
+    "Inclusive adaptation",
+    "Use a raised hand as a visual countdown, and praise the reaction even when the ball is not won."
+   ],
+   [
+    "Safety",
+    "Check the pitch and goals before starting; remove spare balls and cones from the playing area; no slide tackles; stop play straight away if a player goes down; drinks break at half-time."
+   ]
+  ],
+  "meta": [
+   [
+    "Library category",
+    "20-Minute Matches"
+   ],
+   [
+    "Session phase",
+    "Conditioned game"
+   ],
+   [
+    "Duration",
+    "20 minutes"
+   ],
+   [
+    "Primary outcome",
+    "Transition to defend"
+   ],
+   [
+    "Secondary outcomes",
+    "Pressing; Reaction speed; Recovery; Compactness"
+   ],
+   [
+    "Game moment",
+    "Transition to defend"
+   ],
+   [
+    "Player decision",
+    "We’ve just lost it – do I press now or drop into shape?"
+   ],
+   [
+    "Player range",
+    "10–14; 5v5 to 7v7"
+   ],
+   [
+    "Age suitability",
+    "U9–U12; designed for U11"
+   ],
+   [
+    "Opposition level",
+    "Fully opposed"
+   ],
+   [
+    "Goalkeeper involvement",
+    "Recommended; a goalkeeper in each goal"
+   ],
+   [
+    "Intensity",
+    "High"
+   ],
+   [
+    "Directionality",
+    "Directional, two goals"
+   ],
+   [
+    "Recommended preceding drill ID(s)",
+    "TR-001; POS-008"
+   ],
+   [
+    "Recommended following drill ID(s)",
+    "MAT-007; MAT-010"
+   ]
+  ]
+ },
+ {
+  "id": "MAT-007",
+  "name": "Brave Football",
+  "star": false,
+  "section": "20-Minute Matches",
+  "category": "20-Minute Matches",
+  "phase": "Conditioned game",
+  "group": "Game",
+  "duration": "20 minutes",
+  "durMin": 20,
+  "durMax": 20,
+  "intensity": "High",
+  "skill": "Shielding",
+  "playersMin": 10,
+  "playersMax": 14,
+  "gk": "Recommended",
+  "img": "img-2/MAT-007.jpg",
+  "imgW": 1200,
+  "imgH": 800,
+  "before": [
+   "FB-012",
+   "FB-010"
+  ],
+  "after": [
+   "MAT-006",
+   "MAT-010"
+  ],
+  "coach": [
+   [
+    "Phase",
+    "Conditioned game"
+   ],
+   [
+    "Duration",
+    "20 minutes"
+   ],
+   [
+    "Primary skill",
+    "Shielding"
+   ],
+   [
+    "Secondary skills",
+    "Tackling, competing for the ball, recovery, resilience"
+   ],
+   [
+    "Players",
+    "14; 7v7 including goalkeepers (works with 5v5 or 6v6 on a smaller pitch)"
+   ],
+   [
+    "Intensity",
+    "High"
+   ],
+   [
+    "Area",
+    "A 7v7 pitch, about 55 × 37 metres"
+   ],
+   [
+    "Equipment",
+    "Two goals; bibs in two colours; a supply of balls"
+   ],
+   [
+    "Setup",
+    "Play a normal 7v7. Keep a second score alongside goals, or ask an assistant or a resting player to keep it."
+   ],
+   [
+    "Instructions",
+    "Play a normal 7v7 with a second score alongside the goals. Award a Brave Point for: winning a genuine 50/50; legally using the body to win or protect possession; successful shielding under pressure; recovering to make a tackle; immediately trying to regain a ball you have lost. Avoid rewarding hard contact itself – you are rewarding commitment to the contest. Announce Brave Points as they happen and add them up at the end."
+   ],
+   [
+    "Coaching points",
+    "Go and meet the ball – don’t wait for it; body between the defender and the ball; stay on your feet and stay strong; lost it? React and go again; fair and controlled, never reckless."
+   ],
+   [
+    "Work-to-rest guidance",
+    "Two halves of 9–10 minutes with a 1–2 minute drinks break."
+   ],
+   [
+    "Progression",
+    "Players nominate a teammate for a Brave Point at the break; Brave Points count double in the last five minutes."
+   ],
+   [
+    "Regression",
+    "Award Brave Points only for shielding and for going straight after a lost ball until players are comfortable with contact."
+   ],
+   [
+    "Inclusive adaptation",
+    "Match players of similar size for any 1v1 restarts, and notice quieter players’ brave moments first."
+   ],
+   [
+    "Safety",
+    "Shoulder-to-shoulder contact only – no pushing, pulling or barging; no slide tackles; stop play at once for any reckless challenge and never reward one; check the pitch and goals; stop play straight away if a player goes down."
+   ]
+  ],
+  "meta": [
+   [
+    "Library category",
+    "20-Minute Matches"
+   ],
+   [
+    "Session phase",
+    "Conditioned game"
+   ],
+   [
+    "Duration",
+    "20 minutes"
+   ],
+   [
+    "Primary outcome",
+    "Shielding"
+   ],
+   [
+    "Secondary outcomes",
+    "Tackling; Competing for the ball; Recovery; Resilience"
+   ],
+   [
+    "Game moment",
+    "Attacking organisation and defending organisation"
+   ],
+   [
+    "Player decision",
+    "Can I commit to winning or protecting this ball?"
+   ],
+   [
+    "Player range",
+    "10–14; 5v5 to 7v7"
+   ],
+   [
+    "Age suitability",
+    "U9–U12; designed for U11"
+   ],
+   [
+    "Opposition level",
+    "Fully opposed"
+   ],
+   [
+    "Goalkeeper involvement",
+    "Recommended; a goalkeeper in each goal"
+   ],
+   [
+    "Intensity",
+    "High"
+   ],
+   [
+    "Directionality",
+    "Directional, two goals"
+   ],
+   [
+    "Recommended preceding drill ID(s)",
+    "FB-012; FB-010"
+   ],
+   [
+    "Recommended following drill ID(s)",
+    "MAT-006; MAT-010"
+   ]
+  ]
+ },
+ {
+  "id": "MAT-008",
+  "name": "Build Out Challenge",
+  "star": false,
+  "section": "20-Minute Matches",
+  "category": "20-Minute Matches",
+  "phase": "Conditioned game",
+  "group": "Game",
+  "duration": "20 minutes",
+  "durMin": 20,
+  "durMax": 20,
+  "intensity": "Moderate",
+  "skill": "Building from the goalkeeper",
+  "playersMin": 10,
+  "playersMax": 14,
+  "gk": "Essential",
+  "img": "img-2/MAT-008.jpg",
+  "imgW": 1200,
+  "imgH": 800,
+  "before": [
+   "SP-001",
+   "POS-006"
+  ],
+  "after": [
+   "MAT-004",
+   "MAT-010"
+  ],
+  "coach": [
+   [
+    "Phase",
+    "Conditioned game"
+   ],
+   [
+    "Duration",
+    "20 minutes"
+   ],
+   [
+    "Primary skill",
+    "Building from the goalkeeper"
+   ],
+   [
+    "Secondary skills",
+    "Width, support play, passing, receiving under pressure"
+   ],
+   [
+    "Players",
+    "14; 7v7 including goalkeepers (works with 5v5 or 6v6 on a smaller pitch)"
+   ],
+   [
+    "Intensity",
+    "Moderate"
+   ],
+   [
+    "Area",
+    "A 7v7 pitch, about 55 × 37 metres"
+   ],
+   [
+    "Equipment",
+    "Two goals; flat markers or cones for the thirds and the retreat line; bibs in two colours; a supply of balls by each goal"
+   ],
+   [
+    "Setup",
+    "Mark the pitch into thirds. Mark a retreat line for the opposition at the edge of the defensive third."
+   ],
+   [
+    "Instructions",
+    "Every goalkeeper restart begins short. The goalkeeper has defenders spreading left and right, and midfielders creating the next options. Award 1 point for successfully getting out of the defensive third; 2 points when the goalkeeper is involved, a midfielder receives and the team reaches the attacking third; a goal scores as normal. The opposition initially retreat to the line you mark, then are progressively allowed a more realistic press. This teaches: goalkeeper → width → midfielder → forward."
+   ],
+   [
+    "Coaching points",
+    "Spread out as soon as the goalkeeper has the ball; defenders open their body to see the pitch; midfielders show for the next pass; goalkeeper: look, choose and play firmly; after each pass, move again."
+   ],
+   [
+    "Work-to-rest guidance",
+    "Two halves of 9–10 minutes with a 1–2 minute drinks break."
+   ],
+   [
+    "Progression",
+    "Move the retreat line closer to goal; then let the opposition press as soon as the first pass is played; finally allow a full press."
+   ],
+   [
+    "Regression",
+    "Keep the opposition behind the retreat line until the ball has left the defensive third, or give the receiving defender a free first touch."
+   ],
+   [
+    "Inclusive adaptation",
+    "Rotate goalkeepers, and let the goalkeeper roll or throw the ball out if that gives a better start."
+   ],
+   [
+    "Safety",
+    "Check the pitch and goals before starting; remove spare balls and cones from the playing area; no slide tackles; stop play straight away if a player goes down; drinks break at half-time."
+   ]
+  ],
+  "meta": [
+   [
+    "Library category",
+    "20-Minute Matches"
+   ],
+   [
+    "Session phase",
+    "Conditioned game"
+   ],
+   [
+    "Duration",
+    "20 minutes"
+   ],
+   [
+    "Primary outcome",
+    "Building from the goalkeeper"
+   ],
+   [
+    "Secondary outcomes",
+    "Width; Support play; Passing; Receiving under pressure"
+   ],
+   [
+    "Game moment",
+    "Build-up from the goalkeeper"
+   ],
+   [
+    "Player decision",
+    "Goalkeeper: who is free? Outfield players: how do I help us get to the next third?"
+   ],
+   [
+    "Player range",
+    "10–14; 5v5 to 7v7"
+   ],
+   [
+    "Age suitability",
+    "U9–U12; designed for U11"
+   ],
+   [
+    "Opposition level",
+    "Fully opposed"
+   ],
+   [
+    "Goalkeeper involvement",
+    "Essential; the goalkeeper starts every attack"
+   ],
+   [
+    "Intensity",
+    "Moderate"
+   ],
+   [
+    "Directionality",
+    "Directional, two goals"
+   ],
+   [
+    "Recommended preceding drill ID(s)",
+    "SP-001; POS-006"
+   ],
+   [
+    "Recommended following drill ID(s)",
+    "MAT-004; MAT-010"
+   ]
+  ]
+ },
+ {
+  "id": "MAT-009",
+  "name": "Two Ways to Score",
+  "star": true,
+  "section": "20-Minute Matches",
+  "category": "20-Minute Matches",
+  "phase": "Conditioned game",
+  "group": "Game",
+  "duration": "20 minutes",
+  "durMin": 20,
+  "durMax": 20,
+  "intensity": "Moderate to high",
+  "skill": "Decision-making",
+  "playersMin": 10,
+  "playersMax": 14,
+  "gk": "Recommended",
+  "img": "img-2/MAT-009.jpg",
+  "imgW": 1200,
+  "imgH": 800,
+  "before": [
+   "POS-004",
+   "MAT-002"
+  ],
+  "after": [
+   "MAT-010",
+   "BP-009"
+  ],
+  "coach": [
+   [
+    "Phase",
+    "Conditioned game"
+   ],
+   [
+    "Duration",
+    "20 minutes"
+   ],
+   [
+    "Primary skill",
+    "Decision-making"
+   ],
+   [
+    "Secondary skills",
+    "Scanning, width, switching play, creating space"
+   ],
+   [
+    "Players",
+    "14; 7v7 including goalkeepers (works with 5v5 or 6v6 on a smaller pitch)"
+   ],
+   [
+    "Intensity",
+    "Moderate to high"
+   ],
+   [
+    "Area",
+    "A 7v7 pitch, about 55 × 37 metres"
+   ],
+   [
+    "Equipment",
+    "Two goals; eight cones for the four wide gates; bibs in two colours; a supply of balls"
+   ],
+   [
+    "Setup",
+    "Use the normal goals at either end and add two small cone gates positioned wide near each end."
+   ],
+   [
+    "Instructions",
+    "A team can score either with a normal goal = 1, or by dribbling or passing through a wide gate = 1. Suddenly the defenders have a problem: if they all protect the goal, the wings are available; if they spread out to protect the gates, central space opens. The players learn to look at what the opposition are giving them rather than mechanically following an instruction to “go wide”."
+   ],
+   [
+    "Coaching points",
+    "Look before you receive – what are they giving us? Goal protected: go wide. Gates protected: go through the middle. Switch quickly if one side is blocked; defenders: talk and share the jobs."
+   ],
+   [
+    "Work-to-rest guidance",
+    "Two halves of 9–10 minutes with a 1–2 minute drinks break."
+   ],
+   [
+    "Progression",
+    "A pass through a gate has to be received by a teammate on the other side; a goal scored straight after a switch counts double."
+   ],
+   [
+    "Regression",
+    "Make the gates wider, or award 2 points for a gate so that going wide is clearly worth it."
+   ],
+   [
+    "Inclusive adaptation",
+    "Widen the gates and the pitch for more time on the ball; let players choose to dribble or pass through a gate."
+   ],
+   [
+    "Safety",
+    "Check the pitch and goals before starting; remove spare balls and cones from the playing area; no slide tackles; stop play straight away if a player goes down; drinks break at half-time."
+   ]
+  ],
+  "meta": [
+   [
+    "Library category",
+    "20-Minute Matches"
+   ],
+   [
+    "Session phase",
+    "Conditioned game"
+   ],
+   [
+    "Duration",
+    "20 minutes"
+   ],
+   [
+    "Primary outcome",
+    "Decision-making"
+   ],
+   [
+    "Secondary outcomes",
+    "Scanning; Width; Switching play; Creating space"
+   ],
+   [
+    "Game moment",
+    "Attacking organisation"
+   ],
+   [
+    "Player decision",
+    "What is the other team giving us – wide or through the middle?"
+   ],
+   [
+    "Player range",
+    "10–14; 5v5 to 7v7"
+   ],
+   [
+    "Age suitability",
+    "U9–U12; designed for U11"
+   ],
+   [
+    "Opposition level",
+    "Fully opposed"
+   ],
+   [
+    "Goalkeeper involvement",
+    "Recommended; a goalkeeper in each goal"
+   ],
+   [
+    "Intensity",
+    "Moderate to high"
+   ],
+   [
+    "Directionality",
+    "Directional, two goals"
+   ],
+   [
+    "Recommended preceding drill ID(s)",
+    "POS-004; MAT-002"
+   ],
+   [
+    "Recommended following drill ID(s)",
+    "MAT-010; BP-009"
+   ]
+  ]
+ },
+ {
+  "id": "MAT-010",
+  "name": "Coach Goes Quiet",
+  "star": false,
+  "section": "20-Minute Matches",
+  "category": "20-Minute Matches",
+  "phase": "Conditioned game",
+  "group": "Game",
+  "duration": "20 minutes",
+  "durMin": 20,
+  "durMax": 20,
+  "intensity": "Moderate to high",
+  "skill": "Decision-making",
+  "playersMin": 10,
+  "playersMax": 14,
+  "gk": "Recommended",
+  "img": "img-2/MAT-010.jpg",
+  "imgW": 1200,
+  "imgH": 800,
+  "before": [
+   "MAT-001",
+   "MAT-009"
+  ],
+  "after": [],
+  "coach": [
+   [
+    "Phase",
+    "Conditioned game"
+   ],
+   [
+    "Duration",
+    "20 minutes"
+   ],
+   [
+    "Primary skill",
+    "Decision-making"
+   ],
+   [
+    "Secondary skills",
+    "Awareness, game understanding, independence, communication"
+   ],
+   [
+    "Players",
+    "14; 7v7 including goalkeepers (works with 5v5 or 6v6 on a smaller pitch)"
+   ],
+   [
+    "Intensity",
+    "Moderate to high"
+   ],
+   [
+    "Area",
+    "A 7v7 pitch, about 55 × 37 metres"
+   ],
+   [
+    "Equipment",
+    "Two goals; bibs in two colours; a supply of balls; a notepad or tally counter for the coach"
+   ],
+   [
+    "Setup",
+    "Play a normal 7v7 with no conditions. The coach stands on the touchline with a way of keeping a tally."
+   ],
+   [
+    "Instructions",
+    "Remove all bonus points and conditions and play a normal 7v7. Say virtually nothing. Instead, secretly count how many times you see the day’s behaviour – for example, after a width session: a player holds width; a switch of play; a midfielder scans; a pass breaks a line; a player moves after passing. At the end ask: “What did we do in that game that we’d practised earlier?” The aim is players who get wide because they have recognised that is where the space is, not because the coach said it scores two points. Use it as a full 20-minute match, or as the last 5–7 minutes of almost any conditioned game."
+   ],
+   [
+    "Coaching points",
+    "For the coach: stay quiet, watch and count; for the players: solve it yourselves, talk to each other, and use what you practised when you see the moment."
+   ],
+   [
+    "Work-to-rest guidance",
+    "Two halves of 9–10 minutes with a 1–2 minute drinks break."
+   ],
+   [
+    "Progression",
+    "Share the tally at the end and set a target to beat next week; let a resting player keep the count."
+   ],
+   [
+    "Regression",
+    "Give one short reminder at the half-time break, then go quiet again."
+   ],
+   [
+    "Inclusive adaptation",
+    "Ask the review question to pairs first so quieter players can answer; celebrate examples from every player."
+   ],
+   [
+    "Safety",
+    "Check the pitch and goals before starting; remove spare balls and cones from the playing area; no slide tackles; stop play straight away if a player goes down; drinks break at half-time."
+   ]
+  ],
+  "meta": [
+   [
+    "Library category",
+    "20-Minute Matches"
+   ],
+   [
+    "Session phase",
+    "Conditioned game"
+   ],
+   [
+    "Duration",
+    "20 minutes"
+   ],
+   [
+    "Primary outcome",
+    "Decision-making"
+   ],
+   [
+    "Secondary outcomes",
+    "Awareness; Game understanding; Independence; Communication"
+   ],
+   [
+    "Game moment",
+    "Attacking organisation and defending organisation"
+   ],
+   [
+    "Player decision",
+    "What does the game need from me right now?"
+   ],
+   [
+    "Player range",
+    "10–14; 5v5 to 7v7"
+   ],
+   [
+    "Age suitability",
+    "U9–U12; designed for U11"
+   ],
+   [
+    "Opposition level",
+    "Fully opposed"
+   ],
+   [
+    "Goalkeeper involvement",
+    "Recommended; a goalkeeper in each goal"
+   ],
+   [
+    "Intensity",
+    "Moderate to high"
+   ],
+   [
+    "Directionality",
+    "Directional, two goals"
+   ],
+   [
+    "Recommended preceding drill ID(s)",
+    "MAT-001; MAT-009"
+   ],
+   [
+    "Recommended following drill ID(s)",
+    "None"
+   ]
+  ]
  }
 ];
 
@@ -16803,6 +18360,10 @@ window.SECTION_NOTES = {
  "Look, Receive, Play": [
   "Four short coaching cues for midfielders: SCAN – look before the ball comes. OPEN – body side-on so you can see more of the pitch. FIRST TOUCH – take it towards where you want to play. GO AGAIN – pass and immediately find another space.",
   "Don’t teach “look up” only after the ball has been controlled – that is often too late for a central midfielder. The habit to build is: look → ball travels → look again → receive → decide and play."
+ ],
+ "20-Minute Matches": [
+  "Each of these is a 20-minute match to finish a session. One simple condition rewards the behaviour worked on earlier, and the game itself does most of the coaching: keep instructions short and let play flow.",
+  "For the last 5–7 minutes of almost any of these games, switch to “Coach Goes Quiet”: remove the bonus points and conditions, say very little, and count how often the session’s behaviour appears without a reward."
  ]
 };
 

@@ -33,6 +33,9 @@
 
   function $(id) { return document.getElementById(id); }
 
+  // Picture address. FLAT_SITE is set by index.html when all the files sit in one folder.
+  function pic(d) { return window.FLAT_SITE ? d.img.split('/').pop() : d.img; }
+
   // Make text safe to put into HTML.
   function esc(s) {
     return String(s == null ? '' : s).replace(/[&<>"']/g, function (c) {
@@ -159,7 +162,7 @@
     var addLabel = addingWeek === null ? 'Add to plan' : 'Add to week ' + (addingWeek + 1);
     return '<article class="card">' +
       '<button class="card-img" data-open="' + d.id + '" aria-label="Open ' + esc(d.name) + '">' +
-        '<img loading="lazy" src="' + d.img + '" alt="" width="' + d.imgW + '" height="' + d.imgH + '"></button>' +
+        '<img loading="lazy" src="' + pic(d) + '" alt="" width="' + d.imgW + '" height="' + d.imgH + '"></button>' +
       '<div class="card-body">' +
         '<p class="eyebrow">' + esc(d.category) + (d.star ? ' <span class="star" title="Favourite">★</span>' : '') + '</p>' +
         '<h2 class="card-title"><button class="linklike" data-open="' + d.id + '">' + esc(d.name) + '</button></h2>' +
@@ -238,8 +241,8 @@
         '<p class="eyebrow">' + d.id + ' · ' + esc(d.category) + '</p>' +
         '<h2 class="dialog-title">' + esc(d.name) + (d.star ? ' <span class="star">★</span>' : '') + '</h2>' +
       '</div><button class="icon-btn" data-close aria-label="Close">×</button></div>' +
-      '<a class="detail-img" href="' + d.img + '" target="_blank" rel="noopener" title="Open the picture full size">' +
-        '<img src="' + d.img + '" alt="Infographic for ' + esc(d.name) + '" width="' + d.imgW + '" height="' + d.imgH + '"></a>' +
+      '<a class="detail-img" href="' + pic(d) + '" target="_blank" rel="noopener" title="Open the picture full size">' +
+        '<img src="' + pic(d) + '" alt="Infographic for ' + esc(d.name) + '" width="' + d.imgW + '" height="' + d.imgH + '"></a>' +
       '<div class="chips">' +
         '<span class="chip">' + esc(d.duration) + '</span><span class="chip">' + esc(d.intensity) + ' intensity</span>' +
         '<span class="chip">' + esc(d.phase) + '</span><span class="chip">Skill: ' + esc(d.skill) + '</span>' +
@@ -529,7 +532,7 @@
     var skip = { 'Phase': 1, 'Duration': 1, 'Intensity': 1, 'Primary skill': 1, 'Secondary skills': 1 };
     return '<section class="p-sheet"><h2>' + esc(d.name) + ' <small>' + d.id + '</small></h2>' +
       '<p class="p-facts">' + esc(d.phase) + ' · ' + esc(d.duration) + ' · ' + esc(d.intensity) + ' intensity · Skill: ' + esc(d.skill) + '</p>' +
-      '<img src="' + d.img + '" alt="">' +
+      '<img src="' + pic(d) + '" alt="">' +
       '<dl>' + d.coach.filter(function (f) { return !skip[f[0]]; }).map(function (f) {
         return '<dt>' + esc(f[0]) + '</dt><dd>' + lines(f[1]) + '</dd>';
       }).join('') + '</dl></section>';

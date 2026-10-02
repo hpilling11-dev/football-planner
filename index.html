@@ -5,7 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Football Coaching Planner</title>
   <meta name="description" content="Drill library and 6-week training plan builder for our coaching team.">
-  <link rel="stylesheet" href="css/style.css">
+  <!-- The files can sit in their folders (css/, js/, data/, img-1/, img-2/) or all together in one
+       folder, which is what GitHub's upload page sometimes does. The page works either way. -->
+  <link rel="stylesheet" href="css/style.css" onerror="this.onerror=null;this.href='style.css';">
 </head>
 <body>
 
@@ -178,8 +180,23 @@
   <!-- Filled in just before printing -->
   <div id="print-root"></div>
 
-  <script src="data/drills.js"></script>
-  <script src="js/recommend.js"></script>
-  <script src="js/app.js"></script>
+  <script>
+    // Load the three scripts in order. If a file is not in its folder, look for it next to index.html.
+    (function () {
+      var files = ['data/drills.js', 'js/recommend.js', 'js/app.js'], i = 0;
+      function load(flat) {
+        if (i >= files.length) return;
+        var s = document.createElement('script');
+        s.src = flat ? files[i].split('/').pop() : files[i];
+        s.onload = function () { i++; load(window.FLAT_SITE === true); };
+        s.onerror = function () {
+          if (!flat) { window.FLAT_SITE = true; load(true); }
+          else { document.getElementById('drill-list').innerHTML = '<p class="empty">A file is missing: ' + files[i].split('/').pop() + '. Upload it next to index.html.</p>'; }
+        };
+        document.body.appendChild(s);
+      }
+      load(false);
+    })();
+  </script>
 </body>
 </html>

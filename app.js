@@ -8,7 +8,7 @@
      5. 6-week plan builder
      6. Suggest a session, and recommend a whole plan from a description
      7. Share links
-     8. Printing
+     8. Printing, and saving as a PDF file
      9. Start-up
 */
 (function () {
@@ -252,6 +252,7 @@
       relatedHtml('Works well after', d.before) + relatedHtml('Leads on to', d.after) +
       '<details class="more"><summary>More details</summary><dl class="fields">' + meta + '</dl></details>' +
       '<div class="detail-foot"><button class="btn ghost" data-print-drill="' + id + '">Print this drill</button>' +
+      '<button class="btn ghost" data-pdf-drill="' + id + '">Save as PDF</button>' +
       '<button class="btn" data-close>Close</button></div>';
     var dlg = $('drill-dialog');
     if (!dlg.open) dlg.showModal();
@@ -298,6 +299,7 @@
         (readOnly ? '' : '<button class="btn small" data-act="add" data-week="' + i + '">Add drills</button>' +
           '<button class="btn ghost small" data-act="suggest" data-week="' + i + '">Suggest a session</button>') +
         '<button class="btn ghost small" data-act="print" data-week="' + i + '"' + (w.drills.length ? '' : ' disabled') + '>Print</button>' +
+        '<button class="btn ghost small" data-act="pdf" data-week="' + i + '"' + (w.drills.length ? '' : ' disabled') + '>PDF</button>' +
         (readOnly || !w.drills.length ? '' : '<button class="btn ghost small danger" data-act="clear" data-week="' + i + '">Clear</button>') +
       '</div></section>';
   }
@@ -324,6 +326,7 @@
     var btn = e.target.closest('[data-act]'); if (!btn) return;
     var i = +btn.dataset.week, n = +btn.dataset.i, act = btn.dataset.act;
     if (act === 'print') { printPlan(shownPlan(), [i], $('print-sheets').checked); return; }
+    if (act === 'pdf') { pdfPlan(shownPlan(), [i], $('print-sheets').checked); return; }
     if (sharedPlan) return;
     var week = myPlan().weeks[i], list = week.drills;
     if (act === 'up' && n > 0) list.splice(n - 1, 0, list.splice(n, 1)[0]);
@@ -547,6 +550,51 @@
     })).then(function () { window.print(); });
   }
 
+  /* ---------- 8b. Saving as a PDF file ---------- */
+  // The PDF itself is built by js/pdf.js; here we just gather what goes into it.
+
+  function safeFileName(s) {
+    return String(s).replace(/[\\/:*?"<>|]+/g, ' ').replace(/\s+/g, ' ').trim().slice(0, 80) || 'Training plan';
+  }
+  function sheetData(d) {
+    var skip = { 'Phase': 1, 'Duration': 1, 'Intensity': 1, 'Primary skill': 1, 'Secondary skills': 1 };
+    return { title: d.name,
+      facts: d.id + ' · ' + d.phase + ' · ' + d.duration + ' · ' + d.intensity + ' intensity · Skill: ' + d.skill,
+      img: pic(d), imgW: d.imgW, imgH: d.imgH,
+      fields: d.coach.filter(function (f) { return !skip[f[0]]; }) };
+  }
+  function makePdf(data, name) {
+    if (!window.PlanPdf) { toast('The PDF maker (pdf.js) has not been uploaded.'); return; }
+    toast('Making the PDF…');
+    window.PlanPdf.save(data, name).then(function (res) {
+      toast(res.missingPictures ? 'PDF saved without pictures. Use the online site to include them.'
+        : 'PDF saved. Look in your Downloads folder.');
+    }, function () { toast('Sorry, the PDF could not be made.'); });
+  }
+  function pdfPlan(plan, weekIndexes, withSheets) {
+    var seen = {}, sheets = [], weeks = [];
+    weekIndexes.forEach(function (i) {
+      var w = plan.weeks[i], total = weekTotal(w);
+      weeks.push({ heading: 'Week ' + (i + 1) + (w.focus ? ' – ' + w.focus : ''), date: weekDate(plan, i),
+        rows: w.drills.map(function (id) {
+          var d = byId[id];
+          if (!seen[id]) { seen[id] = true; sheets.push(sheetData(d)); }
+          return { name: d.name, sub: d.id + ' · ' + d.group, time: d.duration.replace('minutes', 'min'), points: field(d, 'Coaching points') };
+        }),
+        total: w.drills.length ? 'Total: ' + total.text + ' (session length ' + plan.length + ' min)' : '', notes: w.notes });
+    });
+    var one = weekIndexes.length === 1;
+    makePdf({ title: plan.title || 'Training plan',
+      subtitle: (one ? 'Week ' + (weekIndexes[0] + 1) + ' of 6' : '6-week plan') + ' · sessions of ' + plan.length + ' minutes' +
+        (!one && plan.start ? ' · first session ' + weekDate(plan, 0) : ''),
+      weeks: weeks, sheets: withSheets ? sheets : [], footer: 'Football Coaching Planner' },
+      safeFileName(plan.title || 'Training plan') + (one ? ' - week ' + (weekIndexes[0] + 1) : '') + '.pdf');
+  }
+  function pdfDrill(id) {
+    var d = byId[id];
+    makePdf({ weeks: [], sheets: [sheetData(d)], footer: 'Football Coaching Planner' }, safeFileName(d.id + ' ' + d.name) + '.pdf');
+  }
+
   /* ---------- 9. Start-up ---------- */
 
   function showView(name) {
@@ -594,7 +642,7 @@
 
     // Clicks anywhere: open a drill, add a drill, choose a week, close a pop-up.
     document.addEventListener('click', function (e) {
-      var t = e.target.closest('[data-open],[data-add],[data-week-add],[data-close],[data-print-drill]');
+      var t = e.target.closest('[data-open],[data-add],[data-week-add],[data-close],[data-print-drill],[data-pdf-drill]');
       if (!t) return;
       if (t.dataset.open) { openDrill(t.dataset.open); }
       else if (t.dataset.add) { chooseWeek(t.dataset.add); }
@@ -604,6 +652,7 @@
         if ($('drill-dialog').open) openDrill(t.dataset.id);
       }
       else if (t.dataset.printDrill) { doPrint(drillSheetHtml(byId[t.dataset.printDrill])); }
+      else if (t.dataset.pdfDrill) { pdfDrill(t.dataset.pdfDrill); }
       else if (t.hasAttribute('data-close')) { t.closest('dialog').close(); }
     });
     ['drill-dialog', 'week-dialog'].forEach(function (id) {
@@ -658,6 +707,9 @@
     $('btn-share').addEventListener('click', sharePlan);
     $('btn-print').addEventListener('click', function () {
       printPlan(shownPlan(), [0, 1, 2, 3, 4, 5], $('print-sheets').checked);
+    });
+    $('btn-pdf').addEventListener('click', function () {
+      pdfPlan(shownPlan(), [0, 1, 2, 3, 4, 5], $('print-sheets').checked);
     });
     $('btn-save-shared').addEventListener('click', function () {
       var p = sharedPlan; p.id = newPlan().id;

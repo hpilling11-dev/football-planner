@@ -178,7 +178,7 @@ textarea { resize: vertical; }
 .chip-btn:hover { background: var(--green-100); }
 .more { margin-top: 14px; }
 .more summary, .rules summary { cursor: pointer; font-weight: 700; padding: 8px 0; }
-.detail-foot { display: flex; justify-content: space-between; gap: 8px; margin-top: 16px; }
+.detail-foot { display: flex; flex-wrap: wrap; justify-content: flex-end; gap: 8px; margin-top: 16px; }
 
 /* ---------- Plan builder ---------- */
 .plan-toolbar, .plan-details, .plan-actions { display: flex; flex-wrap: wrap; gap: 10px 12px; align-items: flex-end; margin-bottom: 12px; }

@@ -146,6 +146,7 @@
       <div class="plan-actions">
         <button class="btn" id="btn-share">Share this plan</button>
         <button class="btn" id="btn-print">Print plan</button>
+        <button class="btn" id="btn-pdf">Save as PDF</button>
         <label class="check"><input type="checkbox" id="print-sheets" checked> Include a page for each drill</label>
       </div>
 
@@ -181,9 +182,9 @@
   <div id="print-root"></div>
 
   <script>
-    // Load the three scripts in order. If a file is not in its folder, look for it next to index.html.
+    // Load the scripts in order. If a file is not in its folder, look for it next to index.html.
     (function () {
-      var files = ['data/drills.js', 'js/recommend.js', 'js/app.js'], i = 0;
+      var files = ['data/drills.js', 'js/recommend.js', 'js/pdf.js', 'js/app.js'], i = 0;
       function load(flat) {
         if (i >= files.length) return;
         var s = document.createElement('script');

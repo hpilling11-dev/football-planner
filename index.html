@@ -1,0 +1,185 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Football Coaching Planner</title>
+  <meta name="description" content="Drill library and 6-week training plan builder for our coaching team.">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <p class="brand"><span class="ball" aria-hidden="true"></span>Football Coaching Planner</p>
+      <nav class="tabs" aria-label="Sections">
+        <button class="tab is-active" data-view="drills">Drills</button>
+        <button class="tab" data-view="recommend">Recommend</button>
+        <button class="tab" data-view="plan">6-week plan <span id="plan-count" class="badge">0</span></button>
+      </nav>
+    </div>
+  </header>
+
+  <main class="wrap">
+
+    <!-- ================= DRILL LIBRARY ================= -->
+    <section id="view-drills" class="view">
+      <h1 class="page-title">Drill library</h1>
+
+      <div class="filters">
+        <input type="search" id="f-search" placeholder="Search drills, skills, equipment…" aria-label="Search drills">
+        <select id="f-category" aria-label="Category"><option value="">All categories</option></select>
+        <select id="f-group" aria-label="Type of practice"><option value="">Any type</option></select>
+        <select id="f-intensity" aria-label="Intensity">
+          <option value="">Any intensity</option>
+          <option value="low">Low</option>
+          <option value="moderate">Moderate</option>
+          <option value="high">High</option>
+        </select>
+        <select id="f-duration" aria-label="Length">
+          <option value="">Any length</option>
+          <option value="8">Up to 8 min</option>
+          <option value="10">Up to 10 min</option>
+          <option value="12">Up to 12 min</option>
+        </select>
+        <input type="number" id="f-players" min="1" max="30" placeholder="Players" aria-label="Number of players at training">
+        <label class="check"><input type="checkbox" id="f-star"> ★ Favourites</label>
+        <button class="btn ghost small" id="f-clear">Clear</button>
+      </div>
+
+      <div id="adding-banner" class="banner" hidden>
+        <p>Adding drills to <strong id="adding-week"></strong>. Press “Add” on any drill.</p>
+        <div class="banner-actions">
+          <button class="btn" id="btn-adding-done">Back to the plan</button>
+        </div>
+      </div>
+
+      <div id="section-note" class="note" hidden></div>
+      <p id="result-count" class="muted"></p>
+      <div id="drill-list" class="drill-grid"></div>
+    </section>
+
+    <!-- ================= RECOMMEND A PLAN ================= -->
+    <section id="view-recommend" class="view" hidden>
+      <h1 class="page-title">Recommend a plan</h1>
+      <p class="lead">Describe what your team finds difficult, in your own words. The planner matches what you write
+        to the skills, game moments and player decisions recorded for each drill, then builds six weeks that get
+        harder as they go: learn it, do it under pressure, use it in the game.</p>
+
+      <div class="rec-form">
+        <div class="field">
+          <label for="rec-text">What are the team's challenges?</label>
+          <textarea id="rec-text" rows="6" maxlength="1500"
+            placeholder="For example: They all chase the ball and bunch up. Nobody looks up before they receive it, and we keep losing the ball from goal kicks. Our tackling is good."></textarea>
+        </div>
+        <div class="rec-examples" id="rec-examples">
+          <span class="muted">Add an example:</span>
+          <button class="chip-btn" data-example="They all chase the ball and bunch up.">Chasing the ball</button>
+          <button class="chip-btn" data-example="They don't look up before they receive the ball.">Not looking up</button>
+          <button class="chip-btn" data-example="Their first touch gets away from them.">First touch</button>
+          <button class="chip-btn" data-example="They pass and then stand still.">Standing still</button>
+          <button class="chip-btn" data-example="We lose the ball from goal kicks.">Goal kicks</button>
+          <button class="chip-btn" data-example="They dive in when defending and attackers run straight past them.">Diving in</button>
+          <button class="chip-btn" data-example="They switch off when we lose the ball.">Switching off</button>
+          <button class="chip-btn" data-example="They are scared of bouncing balls.">Bouncing balls</button>
+          <button class="chip-btn" data-example="Corners are chaos.">Corners</button>
+          <button class="chip-btn" data-example="They get pushed off the ball too easily.">Pushed off the ball</button>
+          <button class="chip-btn" data-example="We create chances but can't score.">Can't score</button>
+        </div>
+        <div class="rec-options">
+          <div class="field">
+            <label for="rec-players">Players at training</label>
+            <input id="rec-players" type="number" min="4" max="30" placeholder="Any">
+          </div>
+          <div class="field">
+            <label for="rec-length">Session length (min)</label>
+            <input id="rec-length" type="number" min="20" max="180" step="5" value="60">
+          </div>
+          <button class="btn" id="btn-recommend">Recommend a 6-week plan</button>
+        </div>
+      </div>
+
+      <div id="rec-result"></div>
+      <p class="muted small-print">This works by matching phrases to the drill library. It is not an AI service: it runs
+        in your browser and nothing you type is sent anywhere. Treat the plan as a first draft and change anything you like.</p>
+    </section>
+
+    <!-- ================= 6-WEEK PLAN ================= -->
+    <section id="view-plan" class="view" hidden>
+      <h1 class="page-title">6-week plan</h1>
+
+      <div id="shared-banner" class="banner" hidden>
+        <p><strong>You are looking at a shared plan.</strong> Save a copy if you want to change it.</p>
+        <div class="banner-actions">
+          <button class="btn" id="btn-save-shared">Save a copy to my plans</button>
+          <button class="btn ghost" id="btn-exit-shared">Close shared plan</button>
+        </div>
+      </div>
+
+      <div class="plan-toolbar" id="plan-toolbar">
+        <div class="field grow">
+          <label for="plan-select">My plans</label>
+          <select id="plan-select"></select>
+        </div>
+        <button class="btn ghost small" id="btn-new">New</button>
+        <button class="btn ghost small" id="btn-copy">Duplicate</button>
+        <button class="btn ghost small danger" id="btn-delete">Delete</button>
+      </div>
+
+      <div class="plan-details">
+        <div class="field grow">
+          <label for="plan-title">Plan name</label>
+          <input id="plan-title" type="text" maxlength="80">
+        </div>
+        <div class="field">
+          <label for="plan-start">First session</label>
+          <input id="plan-start" type="date">
+        </div>
+        <div class="field">
+          <label for="plan-length">Session length (min)</label>
+          <input id="plan-length" type="number" min="20" max="180" step="5">
+        </div>
+      </div>
+
+      <div class="plan-actions">
+        <button class="btn" id="btn-share">Share this plan</button>
+        <button class="btn" id="btn-print">Print plan</button>
+        <label class="check"><input type="checkbox" id="print-sheets" checked> Include a page for each drill</label>
+      </div>
+
+      <div id="weeks" class="weeks"></div>
+
+      <details class="rules">
+        <summary>Session-building rules</summary>
+        <ul id="rules-list"></ul>
+      </details>
+    </section>
+  </main>
+
+  <footer class="site-footer wrap">
+    <p>Plans are saved in this browser only. Use “Share this plan” to send one to another coach or another device.</p>
+  </footer>
+
+  <!-- Drill detail pop-up -->
+  <dialog id="drill-dialog" class="dialog" aria-label="Drill details">
+    <div id="drill-detail"></div>
+  </dialog>
+
+  <!-- "Which week?" pop-up -->
+  <dialog id="week-dialog" class="dialog small" aria-label="Choose a week">
+    <div id="week-chooser"></div>
+  </dialog>
+
+  <!-- Suggested focus values for the weekly "Focus" boxes -->
+  <datalist id="focus-list"></datalist>
+
+  <div id="toast" class="toast" role="status" aria-live="polite" hidden></div>
+
+  <!-- Filled in just before printing -->
+  <div id="print-root"></div>
+
+  <script src="data/drills.js"></script>
+  <script src="js/recommend.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

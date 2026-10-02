@@ -18345,6 +18345,1878 @@ window.DRILLS = [
     "None"
    ]
   ]
+ },
+ {
+  "id": "MAT-011",
+  "name": "Coach’s Challenge Match",
+  "star": false,
+  "section": "20-Minute Matches",
+  "category": "20-Minute Matches",
+  "phase": "Conditioned game",
+  "group": "Game",
+  "duration": "20 minutes",
+  "durMin": 20,
+  "durMax": 20,
+  "intensity": "Moderate to high",
+  "skill": "Decision-making",
+  "playersMin": 10,
+  "playersMax": 14,
+  "gk": "Recommended",
+  "img": "img-2/MAT-011.jpg",
+  "imgW": 1200,
+  "imgH": 800,
+  "before": [
+   "MAT-002",
+   "MAT-007"
+  ],
+  "after": [
+   "MAT-010",
+   "PTM-010"
+  ],
+  "coach": [
+   [
+    "Phase",
+    "Conditioned game"
+   ],
+   [
+    "Duration",
+    "20 minutes"
+   ],
+   [
+    "Primary skill",
+    "Decision-making"
+   ],
+   [
+    "Secondary skills",
+    "Width, switching play, competing for the ball, recycling possession"
+   ],
+   [
+    "Players",
+    "14; 7v7 including goalkeepers (works with 5v5 or 6v6 on a smaller pitch)"
+   ],
+   [
+    "Intensity",
+    "Moderate to high"
+   ],
+   [
+    "Area",
+    "A 7v7 pitch, about 55 × 37 metres"
+   ],
+   [
+    "Equipment",
+    "Two goals; cones or flat markers; bibs in two colours; a supply of balls"
+   ],
+   [
+    "Setup",
+    "Play normal 7v7 for 20 minutes, divided into four 5-minute periods. Each period has one secret or announced challenge."
+   ],
+   [
+    "Instructions",
+    "Period 1 – WIDTH: bonus for switching sides. Period 2 – BRAVE: bonus for winning 1v1s and 50/50s. Period 3 – THINK: bonus for recycling possession when forward is blocked. Period 4 – FREE: all conditions removed. During the free period, you stop coaching and see what survives. That final five minutes is arguably the most informative part of training. If the players only switch the ball when a switch is worth two points, they haven’t learned it yet. If they continue doing it when there are no bonus points and you’re silent, you’re beginning to see actual learning."
+   ],
+   [
+    "Coaching points",
+    "WIDTH: make the pitch big and look for the far side; BRAVE: commit to the contest, fair and controlled; THINK: forward if it’s open, back or around if it’s blocked; FREE: the players decide while the coach watches and counts."
+   ],
+   [
+    "Work-to-rest guidance",
+    "Four periods of 5 minutes with a short drinks break between periods."
+   ],
+   [
+    "Progression",
+    "Keep each challenge secret and ask the players to work out what was being rewarded; change the three themes to match the practices used in that session."
+   ],
+   [
+    "Regression",
+    "Announce each challenge clearly and use only two themes, keeping the last period free."
+   ],
+   [
+    "Inclusive adaptation",
+    "Give individual players a private challenge that suits them, and praise attempts as well as successes."
+   ],
+   [
+    "Safety",
+    "Check the pitch and goals before starting; remove spare balls and cones from the playing area; no slide tackles; stop play straight away if a player goes down; drinks break at half-time."
+   ]
+  ],
+  "meta": [
+   [
+    "Library category",
+    "20-Minute Matches"
+   ],
+   [
+    "Session phase",
+    "Conditioned game"
+   ],
+   [
+    "Duration",
+    "20 minutes"
+   ],
+   [
+    "Primary outcome",
+    "Decision-making"
+   ],
+   [
+    "Secondary outcomes",
+    "Width; Switching play; Competing for the ball; Recycling possession"
+   ],
+   [
+    "Game moment",
+    "Attacking organisation and defending organisation"
+   ],
+   [
+    "Player decision",
+    "What is this period rewarding – and do we still do it when the reward has gone?"
+   ],
+   [
+    "Player range",
+    "10–14; 5v5 to 7v7"
+   ],
+   [
+    "Age suitability",
+    "U9–U12; designed for U11"
+   ],
+   [
+    "Opposition level",
+    "Fully opposed"
+   ],
+   [
+    "Goalkeeper involvement",
+    "Recommended; a goalkeeper in each goal"
+   ],
+   [
+    "Intensity",
+    "Moderate to high"
+   ],
+   [
+    "Directionality",
+    "Directional, two goals"
+   ],
+   [
+    "Recommended preceding drill ID(s)",
+    "MAT-002; MAT-007"
+   ],
+   [
+    "Recommended following drill ID(s)",
+    "MAT-010; PTM-010"
+   ]
+  ]
+ },
+ {
+  "id": "PTM-001",
+  "name": "Four-Gate Escape",
+  "star": false,
+  "section": "Practice to Match",
+  "category": "Practice to Match",
+  "phase": "Opposed practice",
+  "group": "Opposed practice",
+  "duration": "12–15 minutes",
+  "durMin": 12,
+  "durMax": 15,
+  "intensity": "Moderate to high",
+  "skill": "Dribbling 1v1",
+  "playersMin": 3,
+  "playersMax": 4,
+  "gk": "Optional",
+  "img": "img-2/PTM-001.jpg",
+  "imgW": 1200,
+  "imgH": 800,
+  "before": [
+   "ADF-001",
+   "WU-005"
+  ],
+  "after": [
+   "ADF-005",
+   "MAT-007"
+  ],
+  "coach": [
+   [
+    "Phase",
+    "Opposed practice"
+   ],
+   [
+    "Duration",
+    "12–15 minutes"
+   ],
+   [
+    "Primary skill",
+    "Dribbling 1v1"
+   ],
+   [
+    "Secondary skills",
+    "Changes of direction, change of speed, acceleration, decision-making"
+   ],
+   [
+    "Players",
+    "Groups of 3–4 per square: an attacker, a defender and one or two waiting to rotate in"
+   ],
+   [
+    "Intensity",
+    "Moderate to high"
+   ],
+   [
+    "Area",
+    "A 10 × 10 metre square per group, with a gate on each side"
+   ],
+   [
+    "Equipment",
+    "Eight cones for the four gates and four markers for the square; a bib for the defender; a supply of balls"
+   ],
+   [
+    "Setup",
+    "Create a 10 × 10 metre square with a gate on each side. The attacker starts centrally with the ball against one defender."
+   ],
+   [
+    "Instructions",
+    "The attacker scores by dribbling through any gate. This teaches something more useful than simply “do a skill”: move the defender and attack the space they leave. Progress it from a passive defender → a live defender → the attacker has 8 seconds. Coach three things: change direction → change speed → accelerate after beating them. Swap roles after each go. In the match that follows: play normal 7v7 but award a bonus point when a player successfully beats an opponent and the team retains possession. Don’t over-reward dribbling to the point that nobody passes."
+   ],
+   [
+    "Coaching points",
+    "Move the defender first, then attack the space they leave; change direction; change speed; accelerate away once you are past; keep your head up to see which gate has opened."
+   ],
+   [
+    "Work-to-rest guidance",
+    "Goes of up to 8–10 seconds, then rotate; 5–6 goes each with a walk-back recovery."
+   ],
+   [
+    "Progression",
+    "Passive defender → live defender → the attacker has 8 seconds. Then let the defender score through a gate after winning the ball."
+   ],
+   [
+    "Regression",
+    "Make the gates wider or the square bigger, or keep the defender passive for longer."
+   ],
+   [
+    "Inclusive adaptation",
+    "Match pairs by speed and confidence, and let the attacker choose whether the defender is passive or live."
+   ],
+   [
+    "Safety",
+    "No slide tackles; fair shoulder-to-shoulder contact only; keep squares well apart; stop play straight away if a player goes down."
+   ]
+  ],
+  "meta": [
+   [
+    "Library category",
+    "Practice to Match"
+   ],
+   [
+    "Session phase",
+    "Opposed practice"
+   ],
+   [
+    "Duration",
+    "12–15 minutes"
+   ],
+   [
+    "Primary outcome",
+    "Dribbling 1v1"
+   ],
+   [
+    "Secondary outcomes",
+    "Changes of direction; Change of speed; Acceleration; Decision-making"
+   ],
+   [
+    "Game moment",
+    "Attacking organisation – 1v1"
+   ],
+   [
+    "Player decision",
+    "Where has the defender moved, and which gate has opened?"
+   ],
+   [
+    "Player range",
+    "3–4 per square; any number of squares"
+   ],
+   [
+    "Age suitability",
+    "U9–U12; designed for U11"
+   ],
+   [
+    "Opposition level",
+    "Passive, progressing to fully opposed 1v1"
+   ],
+   [
+    "Goalkeeper involvement",
+    "Optional; participate as an outfield player"
+   ],
+   [
+    "Intensity",
+    "Moderate to high"
+   ],
+   [
+    "Directionality",
+    "Multi-directional"
+   ],
+   [
+    "Recommended preceding drill ID(s)",
+    "ADF-001; WU-005"
+   ],
+   [
+    "Recommended following drill ID(s)",
+    "ADF-005; MAT-007"
+   ]
+  ]
+ },
+ {
+  "id": "PTM-002",
+  "name": "Pressure Compass",
+  "star": true,
+  "section": "Practice to Match",
+  "category": "Practice to Match",
+  "phase": "Opposed practice",
+  "group": "Opposed practice",
+  "duration": "12–15 minutes",
+  "durMin": 12,
+  "durMax": 15,
+  "intensity": "Moderate",
+  "skill": "First touch",
+  "playersMin": 3,
+  "playersMax": 4,
+  "gk": "Optional",
+  "img": "img-2/PTM-002.jpg",
+  "imgW": 1200,
+  "imgH": 800,
+  "before": [
+   "REC-004",
+   "LRP-001"
+  ],
+  "after": [
+   "LRP-005",
+   "MAT-004"
+  ],
+  "coach": [
+   [
+    "Phase",
+    "Opposed practice"
+   ],
+   [
+    "Duration",
+    "12–15 minutes"
+   ],
+   [
+    "Primary skill",
+    "First touch"
+   ],
+   [
+    "Secondary skills",
+    "Scanning, receiving under pressure, decision-making, first-time passing"
+   ],
+   [
+    "Players",
+    "Groups of 3–4: a server, a receiver and a defender, plus one waiting to rotate in"
+   ],
+   [
+    "Intensity",
+    "Moderate"
+   ],
+   [
+    "Area",
+    "A square of about 10 × 10 metres per group, with a gate on each of the four sides"
+   ],
+   [
+    "Equipment",
+    "Eight cones for the four gates and one ball per group; a bib for the defender"
+   ],
+   [
+    "Setup",
+    "The receiver stands centrally with four gates around them. A server stands outside with the ball, and a defender waits outside, ready to approach from any direction."
+   ],
+   [
+    "Instructions",
+    "The server passes in while the defender approaches from one direction. The receiver has to recognise where the pressure is coming from and take their first touch away from it, through a gate. Don’t call the gate. The player decides. Progress: no defender → passive defender → live defender. Then introduce the possibility of passing first-time if the pressure is too tight. Coaching language: “Where’s the pressure?” → “Where’s the space?” Rotate roles every 4–5 passes. In the match that follows: award a bonus point when a player receives under pressure and their first touch takes them successfully away from the defender."
+   ],
+   [
+    "Coaching points",
+    "Look before the ball arrives – where is the pressure? First touch away from the defender and out of your feet; open your body so you can go either way; too tight? Play it back first time and move again."
+   ],
+   [
+    "Work-to-rest guidance",
+    "4–5 passes as the receiver, then rotate; 3 turns each."
+   ],
+   [
+    "Progression",
+    "No defender → passive defender → live defender; then allow a first-time pass if the pressure is too tight; the defender starts closer or changes direction late."
+   ],
+   [
+    "Regression",
+    "The defender walks in from a set side, or raises a hand early to show where the pressure is coming from."
+   ],
+   [
+    "Inclusive adaptation",
+    "Slow the pass down, widen the gates and allow a second touch before leaving through a gate."
+   ],
+   [
+    "Safety",
+    "No slide tackles; fair shoulder-to-shoulder contact only; keep spare balls and cones out of the playing area; stop play straight away if a player goes down."
+   ]
+  ],
+  "meta": [
+   [
+    "Library category",
+    "Practice to Match"
+   ],
+   [
+    "Session phase",
+    "Opposed practice"
+   ],
+   [
+    "Duration",
+    "12–15 minutes"
+   ],
+   [
+    "Primary outcome",
+    "First touch"
+   ],
+   [
+    "Secondary outcomes",
+    "Scanning; Receiving under pressure; Decision-making; First-time passing"
+   ],
+   [
+    "Game moment",
+    "In possession – receiving under pressure"
+   ],
+   [
+    "Player decision",
+    "Where is the pressure coming from, and where is the space?"
+   ],
+   [
+    "Player range",
+    "3–4 per group"
+   ],
+   [
+    "Age suitability",
+    "U9–U12; designed for U11"
+   ],
+   [
+    "Opposition level",
+    "Unopposed, progressing to passive and then fully opposed"
+   ],
+   [
+    "Goalkeeper involvement",
+    "Optional; participate as an outfield player"
+   ],
+   [
+    "Intensity",
+    "Moderate"
+   ],
+   [
+    "Directionality",
+    "Multi-directional"
+   ],
+   [
+    "Recommended preceding drill ID(s)",
+    "REC-004; LRP-001"
+   ],
+   [
+    "Recommended following drill ID(s)",
+    "LRP-005; MAT-004"
+   ]
+  ]
+ },
+ {
+  "id": "PTM-003",
+  "name": "Weak-Foot Gates",
+  "star": false,
+  "section": "Practice to Match",
+  "category": "Practice to Match",
+  "phase": "Technical practice",
+  "group": "Technical",
+  "duration": "10–12 minutes",
+  "durMin": 10,
+  "durMax": 12,
+  "intensity": "Low to moderate",
+  "skill": "Passing",
+  "playersMin": 2,
+  "playersMax": 16,
+  "gk": "Optional",
+  "img": "img-2/PTM-003.jpg",
+  "imgW": 1200,
+  "imgH": 800,
+  "before": [
+   "FB-003",
+   "FB-001"
+  ],
+  "after": [
+   "COM-003",
+   "MAT-005"
+  ],
+  "coach": [
+   [
+    "Phase",
+    "Technical practice"
+   ],
+   [
+    "Duration",
+    "10–12 minutes"
+   ],
+   [
+    "Primary skill",
+    "Passing"
+   ],
+   [
+    "Secondary skills",
+    "Using both feet, receiving, first touch, movement"
+   ],
+   [
+    "Players",
+    "Any even number, in pairs; one ball per pair"
+   ],
+   [
+    "Intensity",
+    "Low to moderate"
+   ],
+   [
+    "Area",
+    "An area of about 20 × 20 metres with 6–8 gates spread around it"
+   ],
+   [
+    "Equipment",
+    "Two cones per gate (6–8 gates); one ball per pair"
+   ],
+   [
+    "Setup",
+    "Scatter 6–8 small gates around the area. Each pair starts either side of a gate with one ball."
+   ],
+   [
+    "Instructions",
+    "Pairs pass through gates. Rather than simply saying “weak foot only”, give them challenges: right → right; left → left; receive right, pass left; receive left, pass right. Spend about a minute on each. Then turn it into moving pairs who have to score through as many gates as possible. In the match that follows: avoid making weak-foot-only compulsory because it can destroy the game. Instead use occasional challenges such as: a goal with the weaker foot = 2. Or privately challenge individual players: “Can you complete five left-foot passes during this game?”"
+   ],
+   [
+    "Coaching points",
+    "Step next to the ball and pass with the inside of the foot, ankle firm; receive across your body to set up the other foot; quality before speed; the weaker foot only improves if you use it."
+   ],
+   [
+    "Work-to-rest guidance",
+    "Four 1-minute challenges with a short break between each, then two or three 1-minute rounds of moving pairs."
+   ],
+   [
+    "Progression",
+    "Moving pairs: score through as many gates as possible in a minute, never the same gate twice in a row; add a two-touch limit; pairs try to beat their own score."
+   ],
+   [
+    "Regression",
+    "Stand closer to the gate, make the gates wider and allow a touch to control with either foot."
+   ],
+   [
+    "Inclusive adaptation",
+    "Let each pair choose their own distance, and count personal bests rather than comparing pairs."
+   ],
+   [
+    "Safety",
+    "Check the surface and remove spare balls and cones from the working area; keep groups well spaced; no slide tackles; stop play straight away if a player goes down."
+   ]
+  ],
+  "meta": [
+   [
+    "Library category",
+    "Practice to Match"
+   ],
+   [
+    "Session phase",
+    "Technical practice"
+   ],
+   [
+    "Duration",
+    "10–12 minutes"
+   ],
+   [
+    "Primary outcome",
+    "Passing"
+   ],
+   [
+    "Secondary outcomes",
+    "Using both feet; Receiving; First touch; Movement"
+   ],
+   [
+    "Game moment",
+    "In possession – passing and receiving"
+   ],
+   [
+    "Player decision",
+    "Which foot gives me the best pass from here?"
+   ],
+   [
+    "Player range",
+    "2–16; pairs"
+   ],
+   [
+    "Age suitability",
+    "U9–U12; designed for U11"
+   ],
+   [
+    "Opposition level",
+    "Unopposed"
+   ],
+   [
+    "Goalkeeper involvement",
+    "Optional; participate as an outfield player"
+   ],
+   [
+    "Intensity",
+    "Low to moderate"
+   ],
+   [
+    "Directionality",
+    "Multi-directional"
+   ],
+   [
+    "Recommended preceding drill ID(s)",
+    "FB-003; FB-001"
+   ],
+   [
+    "Recommended following drill ID(s)",
+    "COM-003; MAT-005"
+   ]
+  ]
+ },
+ {
+  "id": "PTM-004",
+  "name": "Wide & Arrive",
+  "star": false,
+  "section": "Practice to Match",
+  "category": "Practice to Match",
+  "phase": "Skill practice",
+  "group": "Skill practice",
+  "duration": "12–15 minutes",
+  "durMin": 12,
+  "durMax": 15,
+  "intensity": "Moderate",
+  "skill": "Crossing and cutbacks",
+  "playersMin": 4,
+  "playersMax": 8,
+  "gk": "Essential",
+  "img": "img-2/PTM-004.jpg",
+  "imgW": 1200,
+  "imgH": 800,
+  "before": [
+   "BP-007",
+   "FIN-006"
+  ],
+  "after": [
+   "PTM-005",
+   "MAT-001"
+  ],
+  "coach": [
+   [
+    "Phase",
+    "Skill practice"
+   ],
+   [
+    "Duration",
+    "12–15 minutes"
+   ],
+   [
+    "Primary skill",
+    "Crossing and cutbacks"
+   ],
+   [
+    "Secondary skills",
+    "Width, movement into the box, finishing, decision-making"
+   ],
+   [
+    "Players",
+    "Groups of 4: a wide player, two attackers and a goalkeeper; add two defenders later; rotate waiting players in"
+   ],
+   [
+    "Intensity",
+    "Moderate"
+   ],
+   [
+    "Area",
+    "The attacking third of a 7v7 pitch with a wide channel marked down one or both sides; particularly useful on a bigger pitch"
+   ],
+   [
+    "Equipment",
+    "One goal; cones or flat markers for the wide channel and the attackers’ starting line; bibs; a supply of balls"
+   ],
+   [
+    "Setup",
+    "Create: wide player → two attackers → goalkeeper. The wide player starts in the wide channel with a ball. The two attackers start outside the box."
+   ],
+   [
+    "Instructions",
+    "The wide player travels down the wing. Attackers aren’t allowed to stand waiting in the box. They start outside and arrive as the wide player gets towards the goal line. Give them three movements: NEAR – attack the front area. FAR – attack the back area. LATE – arrive around the penalty spot or cutback area. The wide player chooses: ball across goal OR cutback. Then add defenders. Work from both sides and rotate roles. In the match that follows: mark wide channels. A goal after a cross or cutback from a wide channel = 2 goals. This reinforces width → penetration → movement into the box."
+   ],
+   [
+    "Coaching points",
+    "Wide player: get to the line with your head up, then choose – across goal or cutback; attackers: time your run so you arrive rather than wait; one NEAR, one FAR and someone LATE; finish first time if you can."
+   ],
+   [
+    "Work-to-rest guidance",
+    "One attack about every 30 seconds per group; rotate roles after 3–4 attacks; 10–12 attacks in total."
+   ],
+   [
+    "Progression",
+    "Add one defender, then two; add a third attacker so NEAR, FAR and LATE are all filled; limit the finish to one or two touches."
+   ],
+   [
+    "Regression",
+    "Stay unopposed with the wide player travelling at a jog; allow the attackers a touch to control before finishing; deliver from a still ball."
+   ],
+   [
+    "Inclusive adaptation",
+    "Let the wide player deliver from their stronger side first, and shorten the distance of the cross or cutback."
+   ],
+   [
+    "Safety",
+    "Only one ball in play towards the goal at a time; the goalkeeper is ready before each attack starts; waiting players stand behind the starting line; no slide tackles; stop play straight away if a player goes down."
+   ]
+  ],
+  "meta": [
+   [
+    "Library category",
+    "Practice to Match"
+   ],
+   [
+    "Session phase",
+    "Skill practice"
+   ],
+   [
+    "Duration",
+    "12–15 minutes"
+   ],
+   [
+    "Primary outcome",
+    "Crossing and cutbacks"
+   ],
+   [
+    "Secondary outcomes",
+    "Width; Movement into the box; Finishing; Decision-making"
+   ],
+   [
+    "Game moment",
+    "Attacking organisation – creating and finishing chances from wide"
+   ],
+   [
+    "Player decision",
+    "Wide player: across goal or cutback? Attackers: near, far or late?"
+   ],
+   [
+    "Player range",
+    "4–8 per goal"
+   ],
+   [
+    "Age suitability",
+    "U9–U12; designed for U11"
+   ],
+   [
+    "Opposition level",
+    "Unopposed, progressing to one and then two defenders"
+   ],
+   [
+    "Goalkeeper involvement",
+    "Essential; one goalkeeper in goal"
+   ],
+   [
+    "Intensity",
+    "Moderate"
+   ],
+   [
+    "Directionality",
+    "Directional, one goal"
+   ],
+   [
+    "Recommended preceding drill ID(s)",
+    "BP-007; FIN-006"
+   ],
+   [
+    "Recommended following drill ID(s)",
+    "PTM-005; MAT-001"
+   ]
+  ]
+ },
+ {
+  "id": "PTM-005",
+  "name": "Protect the House",
+  "star": false,
+  "section": "Practice to Match",
+  "category": "Practice to Match",
+  "phase": "Opposed defending practice",
+  "group": "Opposed practice",
+  "duration": "12–15 minutes",
+  "durMin": 12,
+  "durMax": 15,
+  "intensity": "Moderate to high",
+  "skill": "Protecting the goal",
+  "playersMin": 6,
+  "playersMax": 10,
+  "gk": "Essential",
+  "img": "img-2/PTM-005.jpg",
+  "imgW": 1200,
+  "imgH": 800,
+  "before": [
+   "PTM-004",
+   "SP-004"
+  ],
+  "after": [
+   "DEF-005",
+   "MAT-006"
+  ],
+  "coach": [
+   [
+    "Phase",
+    "Opposed defending practice"
+   ],
+   [
+    "Duration",
+    "12–15 minutes"
+   ],
+   [
+    "Primary skill",
+    "Protecting the goal"
+   ],
+   [
+    "Secondary skills",
+    "Marking, goal-side positioning, recovery, clearing, communication"
+   ],
+   [
+    "Players",
+    "6: two attackers, two defenders, a goalkeeper and a wide server; rotate waiting players in"
+   ],
+   [
+    "Intensity",
+    "Moderate to high"
+   ],
+   [
+    "Area",
+    "The defensive third of a 7v7 pitch with a wide channel marked down one or both sides"
+   ],
+   [
+    "Equipment",
+    "One goal; cones or flat markers for the wide channel; bibs in two colours; a supply of balls"
+   ],
+   [
+    "Setup",
+    "Use the same setup as Wide & Arrive, but now you’re coaching the defenders: 2 attackers v 2 defenders + goalkeeper, with a wide server."
+   ],
+   [
+    "Instructions",
+    "Before the ball arrives defenders must: find a player → get goal-side → see ball and player. When the wide player moves towards the line, defenders recover towards goal and protect the dangerous central area. Walk it through once, then play it live. One phrase: “Protect the middle.” Rotate attackers, defenders and server. In the match that follows: goals from crosses count double for the attackers – but defenders earn a bonus point for winning or clearing a cross and then completing the next pass. That last part matters. Defending doesn’t finish when you touch the ball."
+   ],
+   [
+    "Coaching points",
+    "Find your player early; get goal-side and stay there; stand side-on so you can see the ball and your player; as the ball goes towards the line, drop towards goal and protect the middle; win it, then find a teammate."
+   ],
+   [
+    "Work-to-rest guidance",
+    "Attacks of 10–15 seconds with 30–40 seconds’ rest; change roles every 3–4 attacks."
+   ],
+   [
+    "Progression",
+    "Play it live; add a third attacker arriving late; the defenders score by passing to a target player or through a gate after winning the ball."
+   ],
+   [
+    "Regression",
+    "Walk through the positions first; the server delivers from a still ball; attackers play at half pace."
+   ],
+   [
+    "Inclusive adaptation",
+    "Pair a newer defender with an experienced one, and praise good positions even when the attackers score."
+   ],
+   [
+    "Safety",
+    "No slide tackles; no pushing in the back; the goalkeeper calls early for any ball they are coming for; only one ball in play at a time; stop play straight away if a player goes down."
+   ]
+  ],
+  "meta": [
+   [
+    "Library category",
+    "Practice to Match"
+   ],
+   [
+    "Session phase",
+    "Opposed defending practice"
+   ],
+   [
+    "Duration",
+    "12–15 minutes"
+   ],
+   [
+    "Primary outcome",
+    "Protecting the goal"
+   ],
+   [
+    "Secondary outcomes",
+    "Marking; Goal-side positioning; Recovery; Clearing; Communication"
+   ],
+   [
+    "Game moment",
+    "Defending organisation – defending crosses"
+   ],
+   [
+    "Player decision",
+    "Where is my player, where is the ball, and am I goal-side?"
+   ],
+   [
+    "Player range",
+    "6–10 per goal"
+   ],
+   [
+    "Age suitability",
+    "U9–U12; designed for U11"
+   ],
+   [
+    "Opposition level",
+    "Walk-through, progressing to fully opposed"
+   ],
+   [
+    "Goalkeeper involvement",
+    "Essential; one goalkeeper in goal"
+   ],
+   [
+    "Intensity",
+    "Moderate to high"
+   ],
+   [
+    "Directionality",
+    "Directional, one goal"
+   ],
+   [
+    "Recommended preceding drill ID(s)",
+    "PTM-004; SP-004"
+   ],
+   [
+    "Recommended following drill ID(s)",
+    "DEF-005; MAT-006"
+   ]
+  ]
+ },
+ {
+  "id": "PTM-006",
+  "name": "Escape the Press",
+  "star": true,
+  "section": "Practice to Match",
+  "category": "Practice to Match",
+  "phase": "Opposed practice",
+  "group": "Opposed practice",
+  "duration": "12–15 minutes",
+  "durMin": 12,
+  "durMax": 15,
+  "intensity": "Moderate",
+  "skill": "Building from the goalkeeper",
+  "playersMin": 6,
+  "playersMax": 9,
+  "gk": "Essential",
+  "img": "img-2/PTM-006.jpg",
+  "imgW": 1200,
+  "imgH": 800,
+  "before": [
+   "POS-006",
+   "GK-003"
+  ],
+  "after": [
+   "MAT-008",
+   "PTM-007"
+  ],
+  "coach": [
+   [
+    "Phase",
+    "Opposed practice"
+   ],
+   [
+    "Duration",
+    "12–15 minutes"
+   ],
+   [
+    "Primary skill",
+    "Building from the goalkeeper"
+   ],
+   [
+    "Secondary skills",
+    "Playing out of pressure, support play, switching play, composure"
+   ],
+   [
+    "Players",
+    "6–7: a goalkeeper and three defenders against two attackers, then three"
+   ],
+   [
+    "Intensity",
+    "Moderate"
+   ],
+   [
+    "Area",
+    "Half of a 7v7 pitch, from the goal to the halfway line"
+   ],
+   [
+    "Equipment",
+    "One goal; four cones for two target gates (or two target players) near halfway; bibs in two colours; a supply of balls by the goal"
+   ],
+   [
+    "Setup",
+    "Goalkeeper + 3 defenders against 2 attackers. Put two target midfielders or gates near halfway. Every repetition begins with the goalkeeper."
+   ],
+   [
+    "Instructions",
+    "The team scores by playing through a target gate, or into a target player, under control. If the attackers win possession, they immediately attack the goal. Start 4v2 so success is achievable. Progress to 4v3. Now introduce the big lesson: “Can’t go forward? Go back to go around.” Actively reward: centre-back → goalkeeper → opposite centre-back. That’s a huge habit to develop as the players move onto larger pitches. In the match that follows: every goalkeeper restart starts short initially. Award a bonus point if the team progresses goalkeeper → defender → midfielder under control."
+   ],
+   [
+    "Coaching points",
+    "Spread out as soon as the goalkeeper has the ball; open your body so you can see the pitch; can’t go forward? Go back to go around; the goalkeeper is the spare player – use them; pass, then move to offer again."
+   ],
+   [
+    "Work-to-rest guidance",
+    "Goes of 20–30 seconds; 6–8 goes, then rotate the attackers and defenders."
+   ],
+   [
+    "Progression",
+    "4v2 → 4v3; the attackers may press as soon as the goalkeeper touches the ball; a limit of three touches for the defenders."
+   ],
+   [
+    "Regression",
+    "Stay at 4v2, make the area wider, or ask the attackers to wait until the first pass has been received."
+   ],
+   [
+    "Inclusive adaptation",
+    "Rotate everyone through the goalkeeper role, and allow the goalkeeper to roll or throw the first pass."
+   ],
+   [
+    "Safety",
+    "No slide tackles; attackers must not challenge the goalkeeper when the ball is in their hands; keep spare balls behind the goal; stop play straight away if a player goes down."
+   ]
+  ],
+  "meta": [
+   [
+    "Library category",
+    "Practice to Match"
+   ],
+   [
+    "Session phase",
+    "Opposed practice"
+   ],
+   [
+    "Duration",
+    "12–15 minutes"
+   ],
+   [
+    "Primary outcome",
+    "Building from the goalkeeper"
+   ],
+   [
+    "Secondary outcomes",
+    "Playing out of pressure; Support play; Switching play; Composure"
+   ],
+   [
+    "Game moment",
+    "Build-up from the goalkeeper – under pressure"
+   ],
+   [
+    "Player decision",
+    "Can we go forward, or do we go back to go around?"
+   ],
+   [
+    "Player range",
+    "6–9"
+   ],
+   [
+    "Age suitability",
+    "U9–U12; designed for U11"
+   ],
+   [
+    "Opposition level",
+    "Opposed with an overload (4v2), progressing to 4v3"
+   ],
+   [
+    "Goalkeeper involvement",
+    "Essential; the goalkeeper starts every repetition"
+   ],
+   [
+    "Intensity",
+    "Moderate"
+   ],
+   [
+    "Directionality",
+    "Directional, goal to target gates"
+   ],
+   [
+    "Recommended preceding drill ID(s)",
+    "POS-006; GK-003"
+   ],
+   [
+    "Recommended following drill ID(s)",
+    "MAT-008; PTM-007"
+   ]
+  ]
+ },
+ {
+  "id": "PTM-007",
+  "name": "Forward, Around or Back",
+  "star": false,
+  "section": "Practice to Match",
+  "category": "Practice to Match",
+  "phase": "Opposed possession practice",
+  "group": "Opposed practice",
+  "duration": "12–15 minutes",
+  "durMin": 12,
+  "durMax": 15,
+  "intensity": "Moderate",
+  "skill": "Decision-making",
+  "playersMin": 6,
+  "playersMax": 6,
+  "gk": "Optional",
+  "img": "img-2/PTM-007.jpg",
+  "imgW": 1200,
+  "imgH": 800,
+  "before": [
+   "POS-002",
+   "BP-010"
+  ],
+  "after": [
+   "PTM-008",
+   "MAT-002"
+  ],
+  "coach": [
+   [
+    "Phase",
+    "Opposed possession practice"
+   ],
+   [
+    "Duration",
+    "12–15 minutes"
+   ],
+   [
+    "Primary skill",
+    "Decision-making"
+   ],
+   [
+    "Secondary skills",
+    "Patience in possession, switching play, support play, scanning"
+   ],
+   [
+    "Players",
+    "6: four in possession against two defenders; rotate the defenders"
+   ],
+   [
+    "Intensity",
+    "Moderate"
+   ],
+   [
+    "Area",
+    "A rectangle of about 25 × 18 metres with three gates across one end"
+   ],
+   [
+    "Equipment",
+    "Six cones for the three gates and four markers for the rectangle; two bibs for the defenders; a supply of balls"
+   ],
+   [
+    "Setup",
+    "Create a rectangle with three target gates at the opposite end. Four players start in possession against two defenders."
+   ],
+   [
+    "Instructions",
+    "Play 4v2 possession. Players score by getting through an end gate, but they aren’t required to attack immediately. Defenders deliberately block forward routes. Teach three choices: FORWARD – if it’s available. AROUND – if the middle is blocked. BACK – if you’re under pressure. Then reset and find another route. The message is: forward is preferable – not compulsory. Change the defenders every 90 seconds. In the match that follows: award a bonus for a sequence such as: forward blocked → backwards or sideways pass → switch → forward. That teaches patience without teaching possession for possession’s sake."
+   ],
+   [
+    "Coaching points",
+    "Look forward first; forward if it’s open; around if the middle is blocked; back if you’re under pressure, then reset; move the ball quickly so the defenders have to shift; give support behind and to both sides of the ball."
+   ],
+   [
+    "Work-to-rest guidance",
+    "90-second games with 30–45 seconds’ rest; 5–6 games, changing the defenders each time."
+   ],
+   [
+    "Progression",
+    "A goal through the middle gate counts double; add a third defender; a limit of three touches."
+   ],
+   [
+    "Regression",
+    "Play 4v1, make the rectangle wider, or ask the defenders to block rather than tackle."
+   ],
+   [
+    "Inclusive adaptation",
+    "Give less confident players the supporting role behind the ball first, where they have more time."
+   ],
+   [
+    "Safety",
+    "No slide tackles; fair shoulder-to-shoulder contact only; keep spare balls and cones out of the playing area; stop play straight away if a player goes down."
+   ]
+  ],
+  "meta": [
+   [
+    "Library category",
+    "Practice to Match"
+   ],
+   [
+    "Session phase",
+    "Opposed possession practice"
+   ],
+   [
+    "Duration",
+    "12–15 minutes"
+   ],
+   [
+    "Primary outcome",
+    "Decision-making"
+   ],
+   [
+    "Secondary outcomes",
+    "Patience in possession; Switching play; Support play; Scanning"
+   ],
+   [
+    "Game moment",
+    "In possession – progressing against a block"
+   ],
+   [
+    "Player decision",
+    "Forward, around or back?"
+   ],
+   [
+    "Player range",
+    "6 per rectangle"
+   ],
+   [
+    "Age suitability",
+    "U9–U12; designed for U11"
+   ],
+   [
+    "Opposition level",
+    "Opposed with an overload (4v2)"
+   ],
+   [
+    "Goalkeeper involvement",
+    "Optional; participate as an outfield player"
+   ],
+   [
+    "Intensity",
+    "Moderate"
+   ],
+   [
+    "Directionality",
+    "Directional, to three end gates"
+   ],
+   [
+    "Recommended preceding drill ID(s)",
+    "POS-002; BP-010"
+   ],
+   [
+    "Recommended following drill ID(s)",
+    "PTM-008; MAT-002"
+   ]
+  ]
+ },
+ {
+  "id": "PTM-008",
+  "name": "The Safety Player",
+  "star": false,
+  "section": "Practice to Match",
+  "category": "Practice to Match",
+  "phase": "Opposed practice",
+  "group": "Opposed practice",
+  "duration": "12–15 minutes",
+  "durMin": 12,
+  "durMax": 15,
+  "intensity": "Moderate to high",
+  "skill": "Support play",
+  "playersMin": 8,
+  "playersMax": 10,
+  "gk": "Essential",
+  "img": "img-2/PTM-008.jpg",
+  "imgW": 1200,
+  "imgH": 800,
+  "before": [
+   "PTM-007",
+   "POS-002"
+  ],
+  "after": [
+   "MAT-005",
+   "MAT-002"
+  ],
+  "coach": [
+   [
+    "Phase",
+    "Opposed practice"
+   ],
+   [
+    "Duration",
+    "12–15 minutes"
+   ],
+   [
+    "Primary skill",
+    "Support play"
+   ],
+   [
+    "Secondary skills",
+    "Support behind the ball, recycling possession, switching play, patience"
+   ],
+   [
+    "Players",
+    "8: four attackers against three defenders and a goalkeeper"
+   ],
+   [
+    "Intensity",
+    "Moderate to high"
+   ],
+   [
+    "Area",
+    "Half of a 7v7 pitch, attacking one goal"
+   ],
+   [
+    "Equipment",
+    "One goal; bibs in two colours plus one different-coloured bib for the safety player; a supply of balls"
+   ],
+   [
+    "Setup",
+    "Play 4v3 towards goal with a goalkeeper. One attacker wears a different bib and begins as the safety player."
+   ],
+   [
+    "Instructions",
+    "The safety player stays underneath, behind the attack. If the attackers can’t progress, they recycle through the safety player and move again. After a few minutes, remove the nominated safety player and ask: “Who’s going to become our safety?” Now they have to recognise it themselves. In the match that follows: introduce a recycle bonus. If the team attacks, gets blocked, deliberately plays backwards, switches or rebuilds and subsequently scores: goal = 2. This should help stop everyone racing ahead of the ball."
+   ],
+   [
+    "Coaching points",
+    "One player always stays behind the ball; blocked? Play back and go again; the safety player moves the ball quickly to the other side; when you pass back, move to offer a new option; don’t all race ahead of the ball."
+   ],
+   [
+    "Work-to-rest guidance",
+    "Attacks of 30–40 seconds; rest while the next ball is set; rotate roles every 3–4 attacks."
+   ],
+   [
+    "Progression",
+    "Remove the nominated safety player – who becomes our safety? The defenders score by dribbling over the halfway line when they win the ball; play 4v4."
+   ],
+   [
+    "Regression",
+    "The defenders cannot tackle the safety player, or play 4v2."
+   ],
+   [
+    "Inclusive adaptation",
+    "Rotate the safety bib so everyone has a turn, and let newer players start there, where they have the most time."
+   ],
+   [
+    "Safety",
+    "No slide tackles; only one ball in play at a time; the goalkeeper is ready before each attack; stop play straight away if a player goes down."
+   ]
+  ],
+  "meta": [
+   [
+    "Library category",
+    "Practice to Match"
+   ],
+   [
+    "Session phase",
+    "Opposed practice"
+   ],
+   [
+    "Duration",
+    "12–15 minutes"
+   ],
+   [
+    "Primary outcome",
+    "Support play"
+   ],
+   [
+    "Secondary outcomes",
+    "Support behind the ball; Recycling possession; Switching play; Patience"
+   ],
+   [
+    "Game moment",
+    "Attacking organisation – support behind the ball"
+   ],
+   [
+    "Player decision",
+    "We’re blocked – who is our safety, and where do we go next?"
+   ],
+   [
+    "Player range",
+    "8–10"
+   ],
+   [
+    "Age suitability",
+    "U9–U12; designed for U11"
+   ],
+   [
+    "Opposition level",
+    "Opposed with an overload (4v3)"
+   ],
+   [
+    "Goalkeeper involvement",
+    "Essential; one goalkeeper in goal"
+   ],
+   [
+    "Intensity",
+    "Moderate to high"
+   ],
+   [
+    "Directionality",
+    "Directional, one goal"
+   ],
+   [
+    "Recommended preceding drill ID(s)",
+    "PTM-007; POS-002"
+   ],
+   [
+    "Recommended following drill ID(s)",
+    "MAT-005; MAT-002"
+   ]
+  ]
+ },
+ {
+  "id": "PTM-009",
+  "name": "Information Football",
+  "star": false,
+  "section": "Practice to Match",
+  "category": "Practice to Match",
+  "phase": "Small-sided game",
+  "group": "Game",
+  "duration": "12–15 minutes",
+  "durMin": 12,
+  "durMax": 15,
+  "intensity": "Moderate to high",
+  "skill": "Communication",
+  "playersMin": 8,
+  "playersMax": 10,
+  "gk": "Optional",
+  "img": "img-2/PTM-009.jpg",
+  "imgW": 1200,
+  "imgH": 800,
+  "before": [
+   "LRP-004",
+   "DEF-005"
+  ],
+  "after": [
+   "MAT-010",
+   "PTM-010"
+  ],
+  "coach": [
+   [
+    "Phase",
+    "Small-sided game"
+   ],
+   [
+    "Duration",
+    "12–15 minutes"
+   ],
+   [
+    "Primary skill",
+    "Communication"
+   ],
+   [
+    "Secondary skills",
+    "Awareness, scanning, support play, organisation"
+   ],
+   [
+    "Players",
+    "8; 4v4 (use two pitches for larger groups)"
+   ],
+   [
+    "Intensity",
+    "Moderate to high"
+   ],
+   [
+    "Area",
+    "A small-sided pitch of about 30 × 20 metres"
+   ],
+   [
+    "Equipment",
+    "Two small goals (or two goals with goalkeepers); bibs in two colours; a supply of balls"
+   ],
+   [
+    "Setup",
+    "Explicitly teach a tiny vocabulary rather than asking the players to “talk more”: TIME – you have space. MAN ON – pressure coming. TURN – space behind. MINE – I’m taking it. KEEPER – goalkeeper’s ball. BACK – safe option behind. Then set up a 4v4."
+   ],
+   [
+    "Instructions",
+    "Play 4v4. For the first round, the coach isn’t allowed to give tactical information. Instead, award a point when a player gives useful information before their teammate receives. You can make this great fun by having a “Loudest Useful Player” award. The important distinction is useful communication, not simply shouting. In the match that follows: use a Silent Coach 7v7. Tell the players: “For the next five minutes, I’m not helping you. You have to help each other.” This is particularly valuable for defenders and the goalkeeper."
+   ],
+   [
+    "Coaching points",
+    "Say it early – before your teammate receives; use the six words; look around so you have something useful to say; defenders and the goalkeeper can see the most, so they talk the most; useful, not just loud."
+   ],
+   [
+    "Work-to-rest guidance",
+    "Games of 3–4 minutes with 1 minute’s rest; 3 games."
+   ],
+   [
+    "Progression",
+    "A goal counts double if useful information was given in the build-up; add one new word, such as “SWITCH”; play with goalkeepers so “KEEPER” is used."
+   ],
+   [
+    "Regression",
+    "Start with only two words – TIME and MAN ON – and add the others one at a time."
+   ],
+   [
+    "Inclusive adaptation",
+    "Agree hand signals alongside the words (for example, pointing to space), and notice quieter players’ information first."
+   ],
+   [
+    "Safety",
+    "No slide tackles; fair shoulder-to-shoulder contact only; keep spare balls and cones out of the playing area; stop play straight away if a player goes down."
+   ]
+  ],
+  "meta": [
+   [
+    "Library category",
+    "Practice to Match"
+   ],
+   [
+    "Session phase",
+    "Small-sided game"
+   ],
+   [
+    "Duration",
+    "12–15 minutes"
+   ],
+   [
+    "Primary outcome",
+    "Communication"
+   ],
+   [
+    "Secondary outcomes",
+    "Awareness; Scanning; Support play; Organisation"
+   ],
+   [
+    "Game moment",
+    "In and out of possession – helping a teammate"
+   ],
+   [
+    "Player decision",
+    "What does my teammate need to know before the ball arrives?"
+   ],
+   [
+    "Player range",
+    "8–10; 4v4 or 5v5"
+   ],
+   [
+    "Age suitability",
+    "U9–U12; designed for U11"
+   ],
+   [
+    "Opposition level",
+    "Fully opposed"
+   ],
+   [
+    "Goalkeeper involvement",
+    "Optional; add goalkeepers to practise “KEEPER”"
+   ],
+   [
+    "Intensity",
+    "Moderate to high"
+   ],
+   [
+    "Directionality",
+    "Directional, two goals"
+   ],
+   [
+    "Recommended preceding drill ID(s)",
+    "LRP-004; DEF-005"
+   ],
+   [
+    "Recommended following drill ID(s)",
+    "MAT-010; PTM-010"
+   ]
+  ]
+ },
+ {
+  "id": "PTM-010",
+  "name": "Scenario Football",
+  "star": true,
+  "section": "Practice to Match",
+  "category": "Practice to Match",
+  "phase": "Conditioned game",
+  "group": "Game",
+  "duration": "20 minutes",
+  "durMin": 20,
+  "durMax": 20,
+  "intensity": "Moderate to high",
+  "skill": "Decision-making",
+  "playersMin": 10,
+  "playersMax": 14,
+  "gk": "Recommended",
+  "img": "img-2/PTM-010.jpg",
+  "imgW": 1200,
+  "imgH": 800,
+  "before": [
+   "PTM-009",
+   "MAT-009"
+  ],
+  "after": [
+   "MAT-011",
+   "MAT-010"
+  ],
+  "coach": [
+   [
+    "Phase",
+    "Conditioned game"
+   ],
+   [
+    "Duration",
+    "20 minutes"
+   ],
+   [
+    "Primary skill",
+    "Decision-making"
+   ],
+   [
+    "Secondary skills",
+    "Game awareness, problem-solving, communication, game management"
+   ],
+   [
+    "Players",
+    "14; 7v7 including goalkeepers (works with 5v5 or 6v6 on a smaller pitch)"
+   ],
+   [
+    "Intensity",
+    "Moderate to high"
+   ],
+   [
+    "Area",
+    "A 7v7 pitch, about 55 × 37 metres"
+   ],
+   [
+    "Equipment",
+    "Two goals; bibs in two colours; a supply of balls"
+   ],
+   [
+    "Setup",
+    "Play a normal 7v7. Have four or five scenarios ready before you start."
+   ],
+   [
+    "Instructions",
+    "Normal 7v7, but every 4–5 minutes change the scenario. Scenario A: Blue 1–0 up, three minutes remaining – ask them briefly: does Blue need to force every forward pass? Scenario B: Red 1–0 down, two minutes remaining – what changes? Scenario C: Blue have a goal kick and Red are pressing high – can they find the free player? Scenario D: Red have just won possession and Blue have four players ahead of the ball – what’s the opportunity? Scenario E: the opposition have everyone crowded down your left side – where might the space be? Don’t give them the answer first. Give them 10 seconds as a team to discuss what they think they should do, then play. Afterwards ask: “What did you notice?” That’s beginning to teach them to solve football problems themselves."
+   ],
+   [
+    "Coaching points",
+    "For the coach: set the scenario, give 10 seconds, then stay quiet; for the players: what is the score and how long is left? What does the game need right now? Agree one simple plan and help each other stick to it."
+   ],
+   [
+    "Work-to-rest guidance",
+    "Four or five scenarios of 3–4 minutes, each with a 10-second team talk before and a short review after."
+   ],
+   [
+    "Progression",
+    "Let the players invent a scenario; give each team a different secret scenario; a captain leads the 10-second talk."
+   ],
+   [
+    "Regression",
+    "Use one scenario for the whole game, or offer two possible answers to choose from."
+   ],
+   [
+    "Inclusive adaptation",
+    "Let pairs talk first so quieter players contribute, and rotate who speaks for the team."
+   ],
+   [
+    "Safety",
+    "Check the pitch and goals before starting; remove spare balls and cones from the playing area; no slide tackles; stop play straight away if a player goes down; drinks break at half-time."
+   ]
+  ],
+  "meta": [
+   [
+    "Library category",
+    "Practice to Match"
+   ],
+   [
+    "Session phase",
+    "Conditioned game"
+   ],
+   [
+    "Duration",
+    "20 minutes"
+   ],
+   [
+    "Primary outcome",
+    "Decision-making"
+   ],
+   [
+    "Secondary outcomes",
+    "Game awareness; Problem-solving; Communication; Game management"
+   ],
+   [
+    "Game moment",
+    "All moments of the game"
+   ],
+   [
+    "Player decision",
+    "What does this situation need from us?"
+   ],
+   [
+    "Player range",
+    "10–14; 5v5 to 7v7"
+   ],
+   [
+    "Age suitability",
+    "U9–U12; designed for U11"
+   ],
+   [
+    "Opposition level",
+    "Fully opposed"
+   ],
+   [
+    "Goalkeeper involvement",
+    "Recommended; a goalkeeper in each goal"
+   ],
+   [
+    "Intensity",
+    "Moderate to high"
+   ],
+   [
+    "Directionality",
+    "Directional, two goals"
+   ],
+   [
+    "Recommended preceding drill ID(s)",
+    "PTM-009; MAT-009"
+   ],
+   [
+    "Recommended following drill ID(s)",
+    "MAT-011; MAT-010"
+   ]
+  ]
+ },
+ {
+  "id": "LAD-001",
+  "name": "Quick Feet, Scan & Play",
+  "star": false,
+  "section": "Agility Ladder",
+  "category": "Agility Ladder",
+  "phase": "Skill practice",
+  "group": "Skill practice",
+  "duration": "10–12 minutes",
+  "durMin": 10,
+  "durMax": 12,
+  "intensity": "Moderate",
+  "skill": "First touch",
+  "playersMin": 3,
+  "playersMax": 5,
+  "gk": "Optional",
+  "img": "img-2/LAD-001.jpg",
+  "imgW": 1200,
+  "imgH": 800,
+  "before": [
+   "WU-006",
+   "LRP-001"
+  ],
+  "after": [
+   "PTM-002",
+   "REC-005"
+  ],
+  "coach": [
+   [
+    "Phase",
+    "Skill practice"
+   ],
+   [
+    "Duration",
+    "10–12 minutes"
+   ],
+   [
+    "Primary skill",
+    "First touch"
+   ],
+   [
+    "Secondary skills",
+    "Foot speed, agility and co-ordination, balance, scanning, passing after movement"
+   ],
+   [
+    "Players",
+    "Groups of 3–5 per ladder, working one at a time; the coach or a spare player serves"
+   ],
+   [
+    "Intensity",
+    "Moderate"
+   ],
+   [
+    "Area",
+    "A space of about 15 × 15 metres per ladder"
+   ],
+   [
+    "Equipment",
+    "One agility ladder; a receiving cone; four cones in two colours for the two gates (later two mini-goals); coloured cones or bibs for the coach to hold up; a bib for the defender; a supply of balls"
+   ],
+   [
+    "Setup",
+    "Put an agility ladder on the ground. About 3–4 metres beyond it, place a receiving cone. Put two coloured gates 5–8 metres to the left and right. The coach stands ahead with the balls."
+   ],
+   [
+    "Instructions",
+    "The player completes the ladder, then immediately receives a pass from the coach. As the player is moving through the ladder, the coach calls or holds up a colour. The player must look up while exiting the ladder, identify the target gate, receive the ball and take their first touch towards that gate before passing or dribbling through it. Rotate the ladder movements: one foot in each square; two feet in each; sideways quick feet; in-in/out-out; hopscotch; lateral movement. The ladder isn’t the main event. You don’t need perfect, complicated ladder patterns. Its job is to create a little physical and mental load immediately before a football action."
+   ],
+   [
+    "Coaching points",
+    "Quick feet → HEAD UP → good first touch → accelerate. Stay light on your toes; look up as you leave the ladder, not after the ball arrives; first touch towards the gate and out of your feet; speed up after the touch."
+   ],
+   [
+    "Work-to-rest guidance",
+    "One go of 6–8 seconds, then walk back to the queue; 8–10 goes each, changing the ladder movement every 2–3 goes."
+   ],
+   [
+    "Progression",
+    "Progression 1 – add the scan: don’t call the colour; hold up a coloured cone or bib so the player physically has to look up to get the information. Progression 2 – add a defender: the defender starts 2–3 metres behind the receiving player and becomes live as soon as the ball is passed; now the player has to scan → receive → protect or turn → escape. Progression 3 – decision rather than instruction: remove the colours; the defender approaches from either side and the player must take their first touch away from pressure and escape through the opposite gate. Progression 4 – finish: replace the gates with two mini-goals; the player exits the ladder, receives under pressure and decides which goal to attack."
+   ],
+   [
+    "Regression",
+    "Walk or jog through the ladder with one foot in each square; call the colour early; shorten the pass and allow an extra touch."
+   ],
+   [
+    "Inclusive adaptation",
+    "Let players choose their ladder movement and speed, use a call as well as a visual signal, and praise the look up as much as the outcome."
+   ],
+   [
+    "Safety",
+    "Lay the ladder flat on dry, even ground and straighten it between goes; one player on the ladder at a time; pass only once the player has left the ladder; the defender starts behind and must not push or tackle from behind; no slide tackles; stop play straight away if a player goes down."
+   ]
+  ],
+  "meta": [
+   [
+    "Library category",
+    "Agility Ladder"
+   ],
+   [
+    "Session phase",
+    "Skill practice"
+   ],
+   [
+    "Duration",
+    "10–12 minutes"
+   ],
+   [
+    "Primary outcome",
+    "First touch"
+   ],
+   [
+    "Secondary outcomes",
+    "Foot speed; Agility and co-ordination; Balance; Scanning; Passing after movement"
+   ],
+   [
+    "Game moment",
+    "In possession – receiving after movement"
+   ],
+   [
+    "Player decision",
+    "Which gate is showing – and later, where is the pressure coming from?"
+   ],
+   [
+    "Player range",
+    "3–5 per ladder; add ladders for larger groups"
+   ],
+   [
+    "Age suitability",
+    "U9–U12; designed for U11"
+   ],
+   [
+    "Opposition level",
+    "Unopposed, progressing to a live defender"
+   ],
+   [
+    "Goalkeeper involvement",
+    "Optional; participate as an outfield player"
+   ],
+   [
+    "Intensity",
+    "Moderate"
+   ],
+   [
+    "Directionality",
+    "Directional, ladder to a gate on the left or right"
+   ],
+   [
+    "Recommended preceding drill ID(s)",
+    "WU-006; LRP-001"
+   ],
+   [
+    "Recommended following drill ID(s)",
+    "PTM-002; REC-005"
+   ]
+  ]
  }
 ];
 
@@ -18364,6 +20236,13 @@ window.SECTION_NOTES = {
  "20-Minute Matches": [
   "Each of these is a 20-minute match to finish a session. One simple condition rewards the behaviour worked on earlier, and the game itself does most of the coaching: keep instructions short and let play flow.",
   "For the last 5–7 minutes of almost any of these games, switch to “Coach Goes Quiet”: remove the bonus points and conditions, say very little, and count how often the session’s behaviour appears without a reward."
+ ],
+ "Practice to Match": [
+  "Each entry pairs a short practice with a condition for the 7v7 match that follows, so the players meet the same football problem twice: first in a small group, then in the game. Keep the match bonus modest – it should encourage the behaviour without taking over the game.",
+  "Rather than adding completely new drills every week, repeat these core practices with increasing difficulty. One possible order: Four-Gate Escape, Pressure Compass, Escape the Press, Wide & Arrive, Protect the House, The Safety Player, Information Football with a silent-coach match, then Scenario Football. Meanwhile, both feet, scanning and decision-making become permanent coaching threads rather than standalone sessions."
+ ],
+ "Agility Ladder": [
+  "The ladder isn’t the main event. Its job is to create a little physical and mental load immediately before a football action – a look, a first touch, a pass or a finish – so keep the ladder patterns simple and the football action sharp."
  ]
 };
 
